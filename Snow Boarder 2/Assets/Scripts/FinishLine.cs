@@ -6,9 +6,6 @@ public class FinishLine : MonoBehaviour
 {
     void OnTriggerEnter2d(Collider2D other)
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("You Finished");
-        }
+        Debug.Log("You Finished!");
     }
 }
