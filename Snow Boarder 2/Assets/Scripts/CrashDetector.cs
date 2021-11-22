@@ -4,12 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
-{ 
-    void OnTriggerEnter2d(Collider2D other)
+{
+    [SerializeField] float loadDelay = .5f;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.tag == "Player")
-        {
-            Debug.Log("You Finished");
+        if (collision.tag == "Ground")
+        { 
+            Debug.Log("Bad Touch");
+            Invoke("ReloadScene", loadDelay);
         }
+    }
+
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }
