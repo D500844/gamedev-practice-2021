@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CrashDetector : MonoBehaviour
 {
     [SerializeField] float loadDelay = .5f;
+    [SerializeField] ParticleSystem Crashinbutts;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +14,7 @@ public class CrashDetector : MonoBehaviour
         { 
             Debug.Log("Bad Touch");
             Invoke("ReloadScene", loadDelay);
+            Crashinbutts.Play();
         }
     }
 
