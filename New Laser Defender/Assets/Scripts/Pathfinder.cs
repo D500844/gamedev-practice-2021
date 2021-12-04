@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,7 +25,7 @@ public class Pathfinder : MonoBehaviour
         FollowPath();
     }
 
-    private void FollowPath()
+    public void FollowPath()
     {
         if (waypointIndex < waypoints.Count)
         {
