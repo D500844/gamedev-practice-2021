@@ -8,6 +8,7 @@ public class Shooter : MonoBehaviour
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileLifetime = 5;
     [SerializeField] float firingRate = 0.2f;
+    [SerializeField] bool useAI;
 
     public bool isFiring;
 
@@ -15,7 +16,10 @@ public class Shooter : MonoBehaviour
 
     void Start()
     {
-        
+        if (useAI)
+        {
+            isFiring = true;
+        }
     }
 
 
