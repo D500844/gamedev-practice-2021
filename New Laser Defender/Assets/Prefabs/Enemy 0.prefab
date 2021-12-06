@@ -183,7 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eaee1b41ccc58b4a90d38ca916f3a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  isPlayer: 0
+  health: 20
+  score: 785
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
   applyCameraShake: 0
 --- !u!114 &1152737196363137087
@@ -212,9 +214,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5455292880675259511, guid: 303c3b94447901a4c86d084fa4daa0cf, type: 3}
-  projectileSpeed: 12.94
+  projectileSpeed: 8.34
   projectileLifetime: 5
-  baseFiringRate: 0.8
+  baseFiringRate: 0.46
   useAI: 1
   firingRateVariance: 0.5
   minimumFiringRate: 0.2
