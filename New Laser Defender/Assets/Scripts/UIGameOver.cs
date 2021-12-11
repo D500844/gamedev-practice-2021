@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class UIGameOver : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
@@ -16,5 +17,5 @@ public class UIGameOver : MonoBehaviour
     void Start()
     {
         scoreText.text = "But:\n" + scoreKeeper.GetScore();
-    }
+    } 
 }
