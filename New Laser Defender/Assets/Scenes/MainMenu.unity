@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 124ccbd63cb409d41b492cc6f7a2a5f6, type: 3}
     - target: {fileID: 5674762228041942782, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Name
       value: Audio Player
@@ -733,7 +737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7514895, g: 0.48490566, b: 1, a: 0.29803923}
+  m_Color: {r: 1, g: 0.48627448, b: 0.5008998, a: 0.29803923}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1211,7 +1215,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.599944, g: 0.17358488, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.69205385, b: 0.17254901, a: 1}
     m_PressedColor: {r: 0.2679245, g: 1, b: 0.9920937, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1258,7 +1262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.765524, g: 0.48490566, b: 1, a: 0.23529412}
+  m_Color: {r: 1, g: 0.5815476, b: 0.48627448, a: 0.23529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

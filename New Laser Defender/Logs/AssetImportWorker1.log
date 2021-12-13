@@ -15,7 +15,7 @@ F:/gamedev practice 2021/New Laser Defender
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62828
+65055
 Successfully changed project path to: F:/gamedev practice 2021/New Laser Defender
 F:/gamedev practice 2021/New Laser Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ F:/gamedev practice 2021/New Laser Defender
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 55.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,145 +63,90 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021213 seconds.
+Registered in 0.018089 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.853 seconds
+- Completed reload, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (554ms)
-			LoadAssemblies (155ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004324 seconds.
+Registered in 0.005127 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.372 seconds
+- Completed reload, in  1.859 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2373ms)
-		BeginReloadAssembly (244ms)
+	ReloadAssembly (1860ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1987ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (352ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (1276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (1023ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (26ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (55.7 KB). Loaded Objects now: 3118.
-Memory consumption went from 122.9 MB to 122.9 MB.
-Total: 6.042000 ms (FindLiveObjects: 0.620200 ms CreateObjectMapping: 0.310600 ms MarkObjects: 4.984000 ms  DeleteObjects: 0.124600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006504 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (221ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1030ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1518ms)
 			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (520ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1053ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (374ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (859ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2630 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (24.6 KB). Loaded Objects now: 3120.
-Memory consumption went from 121.1 MB to 121.1 MB.
-Total: 4.220100 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.186400 ms MarkObjects: 3.757800 ms  DeleteObjects: 0.041000 ms)
+Unloading 2654 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (55.7 KB). Loaded Objects now: 3118.
+Memory consumption went from 122.9 MB to 122.8 MB.
+Total: 3.530300 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.900900 ms  DeleteObjects: 0.080100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -213,3 +158,1185 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2087409.703500 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Bonus/sfx_shieldUp.ogg
+  artifactKey: Guid(4f9b73ab801b85a47b2aa1bf11e786a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Bonus/sfx_shieldUp.ogg using Guid(4f9b73ab801b85a47b2aa1bf11e786a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd36c45f12c33981e3fd58babf82331e') in 0.186844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Bonus/sfx_laser1.ogg
+  artifactKey: Guid(b33f0ca5480bf73468998765df165197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Bonus/sfx_laser1.ogg using Guid(b33f0ca5480bf73468998765df165197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc9588b03f2d31346a5ece0e188708') in 0.021170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Bonus/sfx_shieldDown.ogg
+  artifactKey: Guid(baea5d5e11870734889b7a58264e0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Bonus/sfx_shieldDown.ogg using Guid(baea5d5e11870734889b7a58264e0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654dc104608081b594369ff3d90183c9') in 0.028778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Bonus/sfx_laser2.ogg
+  artifactKey: Guid(a4d0236dc3ea7aa4185c85d179d2be82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Bonus/sfx_laser2.ogg using Guid(a4d0236dc3ea7aa4185c85d179d2be82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c383177f35b774479dcec48eae50073') in 0.020513 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2630 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.6 KB). Loaded Objects now: 3128.
+Memory consumption went from 124.9 MB to 124.9 MB.
+Total: 5.748100 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.273700 ms MarkObjects: 5.150500 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.623605 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0ae9a8a24b5f7f94bae53e70e3811ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(0ae9a8a24b5f7f94bae53e70e3811ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b3c885bc665c4637f0a4653dd8589') in 0.104507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.924765 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Enemies/enemyBlack1.png
+  artifactKey: Guid(bd71ad16eed42da48b29b82816d4bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Enemies/enemyBlack1.png using Guid(bd71ad16eed42da48b29b82816d4bba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b15f9253607656da73456bff438b79') in 0.082300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Enemies/enemyBlack2.png
+  artifactKey: Guid(559cd8ba434ae034e81cd7d661f3a3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Enemies/enemyBlack2.png using Guid(559cd8ba434ae034e81cd7d661f3a3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf99d5428ec6584ff687a8ac55c9145') in 0.034169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.088179 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun06.png
+  artifactKey: Guid(39a5bc65e30d8b5448eac07b13f75891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun06.png using Guid(39a5bc65e30d8b5448eac07b13f75891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61215d0fc07a1b3de920ee3dc930845c') in 0.043686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun08.png
+  artifactKey: Guid(e2c213a5b5e6f0341b313237db948c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun08.png using Guid(e2c213a5b5e6f0341b313237db948c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25917be9735dd05b8da006489a98d17') in 0.046288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue06.png
+  artifactKey: Guid(e2d6fde7e16efa146a6bdd15a25b8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue06.png using Guid(e2d6fde7e16efa146a6bdd15a25b8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746675661f1b479e9d39d76a58d7f974') in 0.042685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue04.png
+  artifactKey: Guid(821fac3a02a11ec4aa6c222d27475d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue04.png using Guid(821fac3a02a11ec4aa6c222d27475d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9728681b0b58e8b6d089e0ca825e44') in 0.057481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue10.png
+  artifactKey: Guid(e2c4562ea6639be4fb8f730e39ba02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue10.png using Guid(e2c4562ea6639be4fb8f730e39ba02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364e615c9f85c77af325712082b61691') in 0.020996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue07.png
+  artifactKey: Guid(6cebf0539ae6be148be83a3be3d5a96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue07.png using Guid(6cebf0539ae6be148be83a3be3d5a96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b2a860d6d31b8d889345fa4158fc0') in 0.024770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun07.png
+  artifactKey: Guid(96ffce8201dfbcd4fb1899dafcfc1a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/gun07.png using Guid(96ffce8201dfbcd4fb1899dafcfc1a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a71e9e36679441d0c25be5828d705f') in 0.035181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue11.png
+  artifactKey: Guid(37320f947ac128b40aa33a7bb501cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue11.png using Guid(37320f947ac128b40aa33a7bb501cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65cd99690c134008f3523322155ab32') in 0.028959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen03.png
+  artifactKey: Guid(46e0805a6a852024fb2fbddf44fd2b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen03.png using Guid(46e0805a6a852024fb2fbddf44fd2b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f62d56aebf839761d0f7c669e44e5b2') in 0.035492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen15.png
+  artifactKey: Guid(5245f4da3b4e24f4aa0ac065cf7a3ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen15.png using Guid(5245f4da3b4e24f4aa0ac065cf7a3ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c28c6d89f7ac5a10f720afa765b8c9') in 0.035178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen16.png
+  artifactKey: Guid(e5a7e1858052e984399d62a6d5314c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen16.png using Guid(e5a7e1858052e984399d62a6d5314c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db42a49bb5fa7a50dccbaba416a039b') in 0.032506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen12.png
+  artifactKey: Guid(2fdb51646aff4004ea45a0a64817f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen12.png using Guid(2fdb51646aff4004ea45a0a64817f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bcfc2595ae34dcd037d0a93559e9a3') in 0.038095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen05.png
+  artifactKey: Guid(13b7c35fa3cd82b46886976837c614dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen05.png using Guid(13b7c35fa3cd82b46886976837c614dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9cd474a9e97123369e1f544339947') in 0.026243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen11.png
+  artifactKey: Guid(a90e964b634ac3d489bc2906d8ff63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen11.png using Guid(a90e964b634ac3d489bc2906d8ff63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86af383a1155578ee02590e4dfd5548') in 0.031829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen06.png
+  artifactKey: Guid(dbdc52ab1a5b4f047911d8a31550785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen06.png using Guid(dbdc52ab1a5b4f047911d8a31550785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c4dbd9459d89d3a692da54b410b626') in 0.026156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen13.png
+  artifactKey: Guid(644d27349d0dc6440a1136e749002d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen13.png using Guid(644d27349d0dc6440a1136e749002d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70eb1b75e43b55a4488cfc498b2488f') in 0.043995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue15.png
+  artifactKey: Guid(bb153fe04ff10254f865c4255437352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserBlue15.png using Guid(bb153fe04ff10254f865c4255437352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c736a807339d52b87f4a13b3b3d0bab') in 0.029509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen14.png
+  artifactKey: Guid(a201288bc869d9d4fbdfaa68e1c1892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen14.png using Guid(a201288bc869d9d4fbdfaa68e1c1892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997592323c722f0cfae1f0084c623967') in 0.022026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen02.png
+  artifactKey: Guid(d945bbc27d20e0e4ca8ea37b0404b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserGreen02.png using Guid(d945bbc27d20e0e4ca8ea37b0404b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a2b1a10a808bdd0967d17b6ce2db1') in 0.020509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed09.png
+  artifactKey: Guid(cea21ab2459606644969a5665d501058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed09.png using Guid(cea21ab2459606644969a5665d501058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff164b85ba90b8c1c59846eba4375a8') in 0.020217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_tiny2.png
+  artifactKey: Guid(f455fbdfaba1cea4bb0312f5db7fbc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_tiny2.png using Guid(f455fbdfaba1cea4bb0312f5db7fbc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe9e8807115fb93cc49a294e44bcddb') in 0.032959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_tiny1.png
+  artifactKey: Guid(76585db1fa7f0df44a6668205d443605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_tiny1.png using Guid(76585db1fa7f0df44a6668205d443605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459b523fa8d67ae7c721e99cb67f928b') in 0.022875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed04.png
+  artifactKey: Guid(3b779ef72589eaa4398b303ce8074ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed04.png using Guid(3b779ef72589eaa4398b303ce8074ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81beb7071000221b1c106eb6f30120ae') in 0.020398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed07.png
+  artifactKey: Guid(02209df43ef20a34e81f122fa00525ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed07.png using Guid(02209df43ef20a34e81f122fa00525ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67280ef8b5b00d2c67351c4b8be9475d') in 0.033952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_med1.png
+  artifactKey: Guid(d4c8c05aab9314d419cd0d9eed0a1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_med1.png using Guid(d4c8c05aab9314d419cd0d9eed0a1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30243314d469abeb787afa1c4b71b643') in 0.022608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed15.png
+  artifactKey: Guid(97959966aea598d44babbaea3d6c5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed15.png using Guid(97959966aea598d44babbaea3d6c5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602472ac49c994f7080505b7250e3bb5') in 0.024179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_small2.png
+  artifactKey: Guid(0a4fdb77b6ef5a94e804240c5b9133f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_small2.png using Guid(0a4fdb77b6ef5a94e804240c5b9133f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1071d1585220f22d72db15555b5a7ae2') in 0.030686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed08.png
+  artifactKey: Guid(6f6f427ca63443044986671af2031f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed08.png using Guid(6f6f427ca63443044986671af2031f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472cde7f5126f476071aee9466639602') in 0.020409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_big2.png
+  artifactKey: Guid(8332e63e0cf5f734ea597f5ec6a0ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_big2.png using Guid(8332e63e0cf5f734ea597f5ec6a0ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddfc7b1a97879525f6bc2123e523cd0') in 0.045041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_small2.png
+  artifactKey: Guid(0f860037ec06e204c9b007da7057f6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_small2.png using Guid(0f860037ec06e204c9b007da7057f6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6ab42a6465f383cf36a3b128d8aa06') in 0.022782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral6.png
+  artifactKey: Guid(f33da1b8fc7ea8a4db44f6673da4dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral6.png using Guid(f33da1b8fc7ea8a4db44f6673da4dfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674cce12e5147ac783fe3f4fffb6c7c9') in 0.032058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_small1.png
+  artifactKey: Guid(6d3103a9f685a664ebceafb990850694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_small1.png using Guid(6d3103a9f685a664ebceafb990850694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029b032f263206c930acd377f6f07910') in 0.042061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_blue.png
+  artifactKey: Guid(02dea9f2dc6612c489941859772f3d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_blue.png using Guid(02dea9f2dc6612c489941859772f3d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2727b9aab502f955edc3111b9ce70ae0') in 0.031612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral5.png
+  artifactKey: Guid(2166f2794fbd1d14591c39875633e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral5.png using Guid(2166f2794fbd1d14591c39875633e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa500e03f83b4bd92bb7f9e5e699d03') in 0.022583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral7.png
+  artifactKey: Guid(f9e7af74687667040885ac86690ab8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral7.png using Guid(f9e7af74687667040885ac86690ab8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6986f4237cd4bbf819bbf3e114c86f39') in 0.022391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_orange.png
+  artifactKey: Guid(5050667797aa2704c8dd9f2ed43cb204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_orange.png using Guid(5050667797aa2704c8dd9f2ed43cb204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f80ff694de90a882d8005f832fbd383') in 0.033898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_green.png
+  artifactKey: Guid(a7e886a59b6b48a40810e409fba43d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_green.png using Guid(a7e886a59b6b48a40810e409fba43d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ce1de382ea14a3ce22a74e793b67d5') in 0.021028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_small1.png
+  artifactKey: Guid(280df97e490a1b845a2be7a04836f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorBrown_small1.png using Guid(280df97e490a1b845a2be7a04836f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924411cbae9e7e2ab885f0af1892a764') in 0.013413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife3_blue.png
+  artifactKey: Guid(39c07f72360b8de40b1db4c96a606b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife3_blue.png using Guid(39c07f72360b8de40b1db4c96a606b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41361a625514c46416c1530cd191721b') in 0.024002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip1_green.png
+  artifactKey: Guid(601dc0160b12f724bb94aa6895123ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip1_green.png using Guid(601dc0160b12f724bb94aa6895123ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28632130ae2bd7d55dd3074ec12632d0') in 0.027881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip3_damage3.png
+  artifactKey: Guid(a9a5e8e562d7a6741b6a253aa4c0bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip3_damage3.png using Guid(a9a5e8e562d7a6741b6a253aa4c0bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed4438c32181a3448c02d5b87d84280') in 0.031411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_orange.png
+  artifactKey: Guid(68ce42a9f192fad46a0db41d09395dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_orange.png using Guid(68ce42a9f192fad46a0db41d09395dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc96d4d79c396a46603484012f8ac7') in 0.032516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral1.png
+  artifactKey: Guid(d1b6f68f898ecb8489e697db37358196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral1.png using Guid(d1b6f68f898ecb8489e697db37358196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effda102fd868e086e44c5ab6becd041') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage3.png
+  artifactKey: Guid(faebe20ea3361c140b6911f605baf8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage3.png using Guid(faebe20ea3361c140b6911f605baf8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5916b7c91b82c57f56c438d12c13498a') in 0.031451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife3_orange.png
+  artifactKey: Guid(cb379b6e9d83d7147a275ba17098e47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife3_orange.png using Guid(cb379b6e9d83d7147a275ba17098e47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fc6efd5a71bf962cc922ba5ea8e5c7') in 0.024747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage2.png
+  artifactKey: Guid(c46517a9efc920147806a184f3920a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage2.png using Guid(c46517a9efc920147806a184f3920a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c73e29bf20c6419a08dcc6f13ef85d') in 0.025903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupRed.png
+  artifactKey: Guid(91d837fd7546cd4488b498d25c66b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupRed.png using Guid(91d837fd7546cd4488b498d25c66b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a36baa45491df79b287803db997c4fc') in 0.029832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_shield.png
+  artifactKey: Guid(a894b1ac715256f4bbbe407d47d71c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_shield.png using Guid(a894b1ac715256f4bbbe407d47d71c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489fa0e907ebee05781d4e861a38b953') in 0.039303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip3_red.png
+  artifactKey: Guid(4d0ccecbcd7dac840afcbed5cc223fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip3_red.png using Guid(4d0ccecbcd7dac840afcbed5cc223fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b787547425ac145cf3378ff95ebd3b78') in 0.039813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupBlue_star.png
+  artifactKey: Guid(3d44c06b65ece9741b1a529be3734120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupBlue_star.png using Guid(3d44c06b65ece9741b1a529be3734120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf73d480cd376b19a7fd8de8f94a231') in 0.027855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_big1.png
+  artifactKey: Guid(0f0819471db6a1c4dafe9ccb9167b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_big1.png using Guid(0f0819471db6a1c4dafe9ccb9167b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af24976de212293694d14a7a99688d07') in 0.038129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_red.png
+  artifactKey: Guid(8254230f4416f7f4fa0275a96b556e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_red.png using Guid(8254230f4416f7f4fa0275a96b556e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac243872f6079a80f3e8e411eb9a28') in 0.026691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_yellow.png
+  artifactKey: Guid(c60189e14c3e852429fceffd9c56155d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/pill_yellow.png using Guid(c60189e14c3e852429fceffd9c56155d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc6e4ffac6a6cb35c942fdeef6a8284') in 0.027567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage1.png
+  artifactKey: Guid(c2516260004a2304f9a41ef2f67d2038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Damage/playerShip2_damage1.png using Guid(c2516260004a2304f9a41ef2f67d2038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14f28848dadcb371e9a257243f369e1') in 0.023405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupYellow_bolt.png
+  artifactKey: Guid(168009fe620b6ed48928474477a3fb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupYellow_bolt.png using Guid(168009fe620b6ed48928474477a3fb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a64e6e1946370419d47c08fb285d86') in 0.022356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip3_orange.png
+  artifactKey: Guid(20fe4bd3a80316e479e9c1a1c797edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip3_orange.png using Guid(20fe4bd3a80316e479e9c1a1c797edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501f576b6309924f59b4ed85a1632e3c') in 0.037343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_star.png
+  artifactKey: Guid(0a4829128b8b75648bec7068988e50e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_star.png using Guid(0a4829128b8b75648bec7068988e50e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36bfb65aa9b3b8d8d357e64b49110f2') in 0.031632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_bolt.png
+  artifactKey: Guid(45fe05382cf314548a09e6697e6ec1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupGreen_bolt.png using Guid(45fe05382cf314548a09e6697e6ec1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046118c3d733b2e3945dbd98ebd65e9b') in 0.022345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_tiny1.png
+  artifactKey: Guid(9ac0333d00df730448f68a6ae0ffb824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_tiny1.png using Guid(9ac0333d00df730448f68a6ae0ffb824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e4de3ea95557490f60bee0204d805') in 0.021079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_red.png
+  artifactKey: Guid(3bd1acc58b958c94d9dbc80ea604ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_red.png using Guid(3bd1acc58b958c94d9dbc80ea604ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b13c0179e3fa736f13b7d3543857895') in 0.021331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeralX.png
+  artifactKey: Guid(878f27397563bf945b669e52cbaf4683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeralX.png using Guid(878f27397563bf945b669e52cbaf4683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c173da93514c6afef248ebe1539908a') in 0.016362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral4.png
+  artifactKey: Guid(b20f76f2d9394f14ba0e04b5b8620c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral4.png using Guid(b20f76f2d9394f14ba0e04b5b8620c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b07098039327a3e71f499270e440537') in 0.021190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed11.png
+  artifactKey: Guid(20e6f78d3ae13c94aa5bd6907159e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Lasers/laserRed11.png using Guid(20e6f78d3ae13c94aa5bd6907159e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e292ea5781b7fcb8f519ade8319dca') in 0.036373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_green.png
+  artifactKey: Guid(dfa2b87728f443b4fb35ef96dec4df2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip2_green.png using Guid(dfa2b87728f443b4fb35ef96dec4df2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f65bb30bb51ebb7b2af27f87527098a') in 0.027959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_green.png
+  artifactKey: Guid(c92e6247128e58f4d9b693d8c5e0a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/playerLife2_green.png using Guid(c92e6247128e58f4d9b693d8c5e0a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e3959720ffdfcb6837adeb1d1e0669') in 0.026117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral8.png
+  artifactKey: Guid(d7f06cb3453dfa04dbb3606a8e35a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/UI/numeral8.png using Guid(d7f06cb3453dfa04dbb3606a8e35a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60783e0a03870c25e0a8d34a0d5bf435') in 0.024787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_med2.png
+  artifactKey: Guid(134c845e8327bf6409d8f5d3f90c9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Meteors/meteorGrey_med2.png using Guid(134c845e8327bf6409d8f5d3f90c9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782957c5a5b40dd1e47138ce699883c6') in 0.026424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/playerShip1_blue.png
+  artifactKey: Guid(d0a6f96ee61752549b462b44ce86f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/playerShip1_blue.png using Guid(d0a6f96ee61752549b462b44ce86f7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f054ad2c7c34cce36f807ce3e7314c39') in 0.016782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupYellow_star.png
+  artifactKey: Guid(718a50765b472ad48bfaa394a43b9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/powerupYellow_star.png using Guid(718a50765b472ad48bfaa394a43b9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114873151c8cac8c8ce3218b07cc109a') in 0.021081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield1.png
+  artifactKey: Guid(bb265ded3b26b1e4aa3823d493068d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield1.png using Guid(bb265ded3b26b1e4aa3823d493068d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f91474a501206a3f61b1300a46639f') in 0.027974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/shield_silver.png
+  artifactKey: Guid(18fb15e1722b697479e5b29438d6f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/shield_silver.png using Guid(18fb15e1722b697479e5b29438d6f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b4c33d623712a887fe3d1757dbb8a7') in 0.028675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/star_bronze.png
+  artifactKey: Guid(28b0f80b9b4ecb447be946f9bde1cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/star_bronze.png using Guid(28b0f80b9b4ecb447be946f9bde1cdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5af4622cd2466b95742768be112766f') in 0.025284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/scratch1.png
+  artifactKey: Guid(a97c650ed83c31c45933ac0c4828a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/scratch1.png using Guid(a97c650ed83c31c45933ac0c4828a890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc5c6870a4e11ed93f7154204062e78') in 0.025905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Spritesheet/sheet.png
+  artifactKey: Guid(0db411ddfaa33b34abd2881f2e568343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Spritesheet/sheet.png using Guid(0db411ddfaa33b34abd2881f2e568343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb56a32dac0b21531e43c27f9da606d1') in 0.186230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Effects/star1.png
+  artifactKey: Guid(aa55a2d5e582daa4bb4278bab03a65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Effects/star1.png using Guid(aa55a2d5e582daa4bb4278bab03a65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4c04b42c554501a2409e19a00d51e3') in 0.025484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield3.png
+  artifactKey: Guid(3169abe56854d2f4d8ae8886c5cc479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield3.png using Guid(3169abe56854d2f4d8ae8886c5cc479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02aa5fe2fdd147b6a7efd919e97d3a7d') in 0.031287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield2.png
+  artifactKey: Guid(3904bc2ba7aae1b40b665a28d2cbdb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Effects/shield2.png using Guid(3904bc2ba7aae1b40b665a28d2cbdb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b842dfb9db54dafeb8d286be9c9a915') in 0.050738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505356 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/things_gold.png
+  artifactKey: Guid(43276b7a83a088c4f8a416e7720b52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/things_gold.png using Guid(43276b7a83a088c4f8a416e7720b52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a130d7f18479208112420925d19ead') in 0.059167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/things_silver.png
+  artifactKey: Guid(a18f4a9f06d6b56419413bdac0f6716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/things_silver.png using Guid(a18f4a9f06d6b56419413bdac0f6716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c2aa181cb95bdf2938a95b7b87074') in 0.038851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_2.png
+  artifactKey: Guid(8ccc716edab217f4aac200e4beee6f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_2.png using Guid(8ccc716edab217f4aac200e4beee6f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af25c9f14d09c251902640c3fea221f') in 0.030907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_7.png
+  artifactKey: Guid(f01c58e982f46d745a8554c2ba57ad2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_7.png using Guid(f01c58e982f46d745a8554c2ba57ad2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac8254a2c7775d4ee820d68de747272') in 0.025481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_5.png
+  artifactKey: Guid(cc3d8a4f49f73c04eae31421b6679552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_5.png using Guid(cc3d8a4f49f73c04eae31421b6679552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cb2a3ba69f79799d1d2e1560b9a92e') in 0.032589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_0.png
+  artifactKey: Guid(be9ee08788b4cd74189040ac63570f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_0.png using Guid(be9ee08788b4cd74189040ac63570f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c3c3ee24ba1eb664da8f4aee2e3494') in 0.031335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_3.png
+  artifactKey: Guid(58865a0eb591b8247af209735978c8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_3.png using Guid(58865a0eb591b8247af209735978c8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bfcc5f2418e260b6bdc545fef2c017') in 0.028988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_3.png
+  artifactKey: Guid(bb481c8631be3994f9c8d7c05ede73d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_3.png using Guid(bb481c8631be3994f9c8d7c05ede73d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a835605731229a2d154cac714c92da9') in 0.030430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_0.png
+  artifactKey: Guid(68bd7ea10dcad644a8a10dbe7d1cd5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_0.png using Guid(68bd7ea10dcad644a8a10dbe7d1cd5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4baf43c2f3e39222a73da1dd074a3ee') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_4.png
+  artifactKey: Guid(68c1cfecdf1296a4fbf714a4ad662155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_4.png using Guid(68c1cfecdf1296a4fbf714a4ad662155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ac20c17054f576ad00233a9dd443b2') in 0.022174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_1.png
+  artifactKey: Guid(92b212de30213b2489ca6f6beb916ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingBlue_1.png using Guid(92b212de30213b2489ca6f6beb916ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad46e24da6a94614aa5b99d6146edc97') in 0.025055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.403709 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_7.png
+  artifactKey: Guid(c190a6e61195d16488165df7db7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingGreen_7.png using Guid(c190a6e61195d16488165df7db7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32e44defa829be89979ff3b668b5802') in 0.020885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_3.png
+  artifactKey: Guid(0b4122249c28a5c46b417dc6441691c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_3.png using Guid(0b4122249c28a5c46b417dc6441691c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7626f739d8e73d4c9f62d01fb73cce17') in 0.027002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_5.png
+  artifactKey: Guid(1682dfc5d877c7f4193bf6990d578699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_5.png using Guid(1682dfc5d877c7f4193bf6990d578699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def2bee2d3501ffcb7c1a3cdf0edd020') in 0.022974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_0.png
+  artifactKey: Guid(0a808349dec623b4082642994a2405ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_0.png using Guid(0a808349dec623b4082642994a2405ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a791450fee103d88fdbeb704e242a6dc') in 0.951511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_7.png
+  artifactKey: Guid(ac6513fe11216284a9f481072290dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_7.png using Guid(ac6513fe11216284a9f481072290dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd11fbf984287ea3dd484f93e1e58e6') in 0.031076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_3.png
+  artifactKey: Guid(b79c8a60ac130554ba98a1a5616b5304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_3.png using Guid(b79c8a60ac130554ba98a1a5616b5304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1079dc9259771d4e7190d887ee016ed5') in 0.022713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_1.png
+  artifactKey: Guid(30e9e19912e0de64ebde18202745d14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_1.png using Guid(30e9e19912e0de64ebde18202745d14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1d20f3c13dcd2226af5594e80e172e') in 0.024207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_1.png
+  artifactKey: Guid(61172104ff9104c4a969520b28090534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingYellow_1.png using Guid(61172104ff9104c4a969520b28090534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9853e6694befff463e11e03fa97cc4bc') in 0.020610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_7.png
+  artifactKey: Guid(df88b0dd2e49b71489622108e64be8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/wingRed_7.png using Guid(df88b0dd2e49b71489622108e64be8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f627bdbb6d20d8a440ec9a5e47692278') in 0.024084 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2729 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.6 KB). Loaded Objects now: 4719.
+Memory consumption went from 171.4 MB to 171.4 MB.
+Total: 4.494000 ms (FindLiveObjects: 0.470500 ms CreateObjectMapping: 0.209300 ms MarkObjects: 3.773800 ms  DeleteObjects: 0.039000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+A PreviewRenderUtility was not clean up properly before assembly reloading which lead to leaking this scene in the Editor. This can be caused by not calling Cleanup() during the OnDisable of an Editor or an EditorWindow.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.PreviewRenderUtility:Finalize ()
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004229 seconds.
+Begin MonoManager ReloadAssembly
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Received signal SIGSEGV
+Obtained 2 stack frames
+RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
+<Missing stacktrace information>
+

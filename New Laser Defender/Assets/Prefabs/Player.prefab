@@ -152,9 +152,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5455292880675259511, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
-  projectileSpeed: 20
+  projectileSpeed: 15.39
   projectileLifetime: 5
-  baseFiringRate: 0.1
+  baseFiringRate: 0.2
   useAI: 0
   firingRateVariance: 0
   minimumFiringRate: 0.04
@@ -232,8 +232,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: d0a6f96ee61752549b462b44ce86f7bc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 20fe4bd3a80316e479e9c1a1c797edeb, type: 3}
+  m_Color: {r: 1, g: 0.67358494, b: 0.67358494, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
