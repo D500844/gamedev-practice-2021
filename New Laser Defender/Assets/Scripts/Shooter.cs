@@ -17,6 +17,7 @@ public class Shooter : MonoBehaviour
 
     [HideInInspector] public bool isFiring;
 
+
     Coroutine firingCoroutine;
     AudioPlayer audioPlayer;
 
@@ -61,9 +62,9 @@ public class Shooter : MonoBehaviour
                                               Quaternion.identity);
             Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
 
-            if(rb != null)
+            if (rb != null)
             {
-                rb.velocity = transform.up * projectileSpeed;
+                rb.velocity = transform.up * projectileSpeed; 
             }
 
             Destroy(instance, projectileLifetime);
