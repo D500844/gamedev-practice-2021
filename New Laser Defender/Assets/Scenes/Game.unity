@@ -930,6 +930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1571890725}
   - component: {fileID: 1571890724}
+  - component: {fileID: 1571890726}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -953,7 +954,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4edad69bf2d65c14d998d9610d8b9835, type: 2}
   - {fileID: 11400000, guid: 3aac528b3466bb54791582cf79ab75b6, type: 2}
   - {fileID: 11400000, guid: 27db79c265f1ee542b2a68fcbd782d2d, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
   - {fileID: 11400000, guid: ecf1873c599a27440b840a28625309fc, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 61129845e78f28c46a408856e07965a4, type: 2}
   timeBetweenWaves: 2
   isLooping: 1
 --- !u!4 &1571890725
@@ -971,6 +978,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1571890726
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571890723}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a27c7c1609fed1e4698ce585484ab8e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2033351531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9de6e98ed8c8bb6418ca9a40f1ff7f73, type: 3}
+      objectReference: {fileID: 8300000, guid: 65fa3c4e218402844a846e096f7700d2, type: 3}
     - target: {fileID: 5674762228041942782, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Name
       value: Audio Player

@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 1
+  itemDropPrefab: {fileID: 5455292880675259511, guid: 1effbe36376889642a1a6890f6024e15, type: 3}
   health: 50
   score: 0
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
@@ -152,10 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5455292880675259511, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
-  projectileSpeed: 15.39
-  projectileOffSetSpeed: 5
-  projectileLifetime: 5
-  baseFiringRate: 0.2
+  projectileSpeed: 19.51
+  projectileLifetime: 7
+  baseFiringRate: 0.1
   useAI: 0
   firingRateVariance: 0
   minimumFiringRate: 0.04

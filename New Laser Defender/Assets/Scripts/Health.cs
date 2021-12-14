@@ -5,6 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] bool isPlayer;
+    [SerializeField] GameObject itemDropPrefab;
     [SerializeField] int health = 50;
     [SerializeField] int score = 50; 
     [SerializeField] ParticleSystem hitEffect;
@@ -63,6 +64,15 @@ public class Health : MonoBehaviour
             levelManager.LoadGameOver();
         }
         Destroy(gameObject);
+        SpawnItem();
+    }
+
+    void SpawnItem()
+    {
+        GameObject instance = Instantiate(itemDropPrefab,
+                                              transform.position,
+                                              Quaternion.identity);
+        Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
     }
 
     void PlayHitEffect()
