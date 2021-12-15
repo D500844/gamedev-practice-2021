@@ -156,8 +156,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010610402, y: -0.06820977}
-  m_Size: {x: 0.5757886, y: 0.7180662}
+  m_Offset: {x: -0.00058853626, y: 0.12561512}
+  m_Size: {x: 2.5340812, y: 2.5340812}
   m_Direction: 0
 --- !u!114 &-6792449450157636536
 MonoBehaviour:
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   itemDropPrefab: {fileID: 5455292880675259511, guid: 1effbe36376889642a1a6890f6024e15, type: 3}
-  health: 727
+  health: 950
   score: 7850
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
   applyCameraShake: 0
@@ -215,9 +215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 5455292880675259511, guid: d21ef2738dd91cc4b8142a966471cb51, type: 3}
-  projectileSpeed: 13.63
+  projectileSpeed: 13.59
   projectileLifetime: 5
-  baseFiringRate: 0.31
+  baseFiringRate: 0.7
   useAI: 1
   firingRateVariance: 0.5
   minimumFiringRate: 0.2

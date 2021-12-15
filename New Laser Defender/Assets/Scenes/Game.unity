@@ -1326,10 +1326,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: damageVolume
+      value: 0.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: shootingVolume
+      value: 0.043
+      objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 65fa3c4e218402844a846e096f7700d2, type: 3}
+      objectReference: {fileID: 8300000, guid: 5fdad2351be812a4482656cc3e1a5244, type: 3}
     - target: {fileID: 5674762228041942782, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Name
       value: Audio Player
