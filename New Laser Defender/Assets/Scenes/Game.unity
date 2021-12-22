@@ -962,6 +962,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
   - {fileID: 11400000, guid: 27db79c265f1ee542b2a68fcbd782d2d, type: 2}
   - {fileID: 11400000, guid: 61129845e78f28c46a408856e07965a4, type: 2}
+  - {fileID: 11400000, guid: 4edad69bf2d65c14d998d9610d8b9835, type: 2}
+  - {fileID: 11400000, guid: 3aac528b3466bb54791582cf79ab75b6, type: 2}
+  - {fileID: 11400000, guid: 27db79c265f1ee542b2a68fcbd782d2d, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: ecf1873c599a27440b840a28625309fc, type: 2}
+  - {fileID: 11400000, guid: 71bf5d767029c774d83e87a88b571f07, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 27db79c265f1ee542b2a68fcbd782d2d, type: 2}
+  - {fileID: 11400000, guid: 57fca2af0161d2c49a799250ab733115, type: 2}
   timeBetweenWaves: 2.57
   isLooping: 1
 --- !u!4 &1571890725
