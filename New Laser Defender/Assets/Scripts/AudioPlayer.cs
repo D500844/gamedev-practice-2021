@@ -11,8 +11,14 @@ public class AudioPlayer : MonoBehaviour
     [Header("Damage")]
     [SerializeField] AudioClip damageClip;
     [SerializeField] [Range(0f, 1f)] float damageVolume = 1f;
-
+    
     static AudioPlayer instance;
+
+
+    //public AudioPlayer GetInstance()
+    //{
+    //    return instance;
+    //}
 
     void Awake()
     {
@@ -21,7 +27,21 @@ public class AudioPlayer : MonoBehaviour
 
     void ManageSingleton()
     {
-    if(instance != null)
+        //if (instance != null)
+        //{
+        //    gameObject.SetActive(false);
+        //    Destroy(gameObject);
+        //}
+        //else
+        //{
+        //    instance = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}
+
+        //int instanceCount = FindObjectsOfType(GetType()).Length;
+        //if (instanceCount > 1)
+
+        if(instance != null)
         {
             gameObject.SetActive(false);
             Destroy(gameObject);
@@ -29,7 +49,7 @@ public class AudioPlayer : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
     }
 

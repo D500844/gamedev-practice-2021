@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -7,7 +5,7 @@ public class Health : MonoBehaviour
     [SerializeField] bool isPlayer;
     [SerializeField] GameObject itemDropPrefab;
     [SerializeField] int health = 50;
-    [SerializeField] int score = 50; 
+    [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
 
     [SerializeField] bool applyCameraShake;
@@ -29,7 +27,7 @@ public class Health : MonoBehaviour
     {
         DamageDealer damageDealer = other.GetComponent<DamageDealer>();
 
-        if(damageDealer != null)
+        if (damageDealer != null)
         {
             TakeDamage(damageDealer.GetDamage());
             PlayHitEffect();
@@ -47,7 +45,7 @@ public class Health : MonoBehaviour
     void TakeDamage(int damage)
     {
         health -= damage;
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
         }
@@ -77,7 +75,7 @@ public class Health : MonoBehaviour
 
     void PlayHitEffect()
     {
-        if(hitEffect != null)
+        if (hitEffect != null)
         {
             ParticleSystem instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
@@ -86,7 +84,7 @@ public class Health : MonoBehaviour
 
     void ShakeCamera()
     {
-        if(cameraShake != null && applyCameraShake)
+        if (cameraShake != null && applyCameraShake)
         {
             cameraShake.Play();
         }

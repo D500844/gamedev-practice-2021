@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    AudioPlayer audioPlayer;
     [SerializeField] float sceneLoadDelay = 2f;
 
     public void LoadGame()
     {
         SceneManager.LoadScene("Game");
+        //DestroyImmediate(gameObject);
     }
 
     public void LoadMainMenu()
@@ -24,8 +26,8 @@ public class LevelManager : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quitting the Game...");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
+        //Application.Quit();
     }
 
     IEnumerator WaitAndLoad(string sceneName, float delay)

@@ -292,13 +292,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: Priority
+      value: 107
+      objectReference: {fileID: 0}
+    - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: m_Volume
+      value: 0.108
+      objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942782, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Name
       value: Audio Player
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942782, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
@@ -952,7 +960,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.60193485, g: 0.2867924, b: 1, a: 1}
     m_PressedColor: {r: 0.44716978, g: 1, b: 0.9824868, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.29355645, g: 0.30468047, b: 0.7169812, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -997,7 +1005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.52328813, b: 0.48627448, a: 0.29803923}
+  m_Color: {r: 0.43846565, g: 0.6509434, b: 0.6311915, a: 0.29803923}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1272,6 +1280,14 @@ PrefabInstance:
       propertyPath: moveSpeed.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580867731146187171, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eca43587d6dc1374ea529477f3999db2, type: 3}
     - target: {fileID: 1580867731192554359, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
       propertyPath: moveSpeed.y
       value: 0.1
@@ -1477,7 +1493,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.599944, g: 0.17358488, b: 1, a: 1}
     m_PressedColor: {r: 0.2679245, g: 1, b: 0.9920937, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.2173371, g: 0.22856267, b: 0.5188679, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1522,7 +1538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.48627448, b: 0.4914618, a: 0.23529412}
+  m_Color: {r: 0.61308295, g: 0.8396226, b: 0.8063843, a: 0.23529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1605,7 +1621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1162619737}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1985166919
