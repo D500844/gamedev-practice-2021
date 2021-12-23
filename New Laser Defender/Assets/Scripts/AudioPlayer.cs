@@ -74,6 +74,10 @@ public class AudioPlayer : MonoBehaviour
 
     public void ChangeBGM(AudioClip music)
     {
+        if(BGM.clip.name == music.name)
+        {
+            return;
+        }
         BGM.Stop();
         BGM.clip = music;
         BGM.Play();
