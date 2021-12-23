@@ -30,6 +30,11 @@ public class LevelManager : MonoBehaviour
         //Application.Quit();
     }
 
+    //public void LoadOptionsMenu()
+    //{
+    //    SceneManager.LoadScene("Options Menu");
+    //}
+
     IEnumerator WaitAndLoad(string sceneName, float delay)
     {
         yield return new WaitForSeconds(delay);
