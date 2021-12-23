@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -14,6 +16,7 @@ public class Health : MonoBehaviour
     AudioPlayer audioPlayer;
     ScoreKeeper scoreKeeper;
     LevelManager levelManager;
+    GameObject playerObjectCheck;
 
     void Awake()
     {
@@ -22,6 +25,15 @@ public class Health : MonoBehaviour
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
         levelManager = FindObjectOfType<LevelManager>();
     }
+
+    private void Update()
+    {
+        if(isPlayer && health > 50)
+        {
+            health = 50;
+        }
+    }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {

@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 51b240088f22d414285c49e4898c98eb, type: 3}
-  m_Color: {r: 1, g: 0.60784316, b: 0.7821245, a: 1}
+  m_Color: {r: 1, g: 0.5226415, b: 0.9458143, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   itemDropPrefab: {fileID: 5455292880675259511, guid: 1effbe36376889642a1a6890f6024e15, type: 3}
-  health: 88
+  health: 109
   score: 7850
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
   applyCameraShake: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f54248867441048a3913bf86ef6af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 41
+  damage: 20
 --- !u!114 &3403687690804722570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 5455292880675259511, guid: 648b77affe7776a46a8e2144bc74c74e, type: 3}
   projectileSpeed: 5.13
   projectileLifetime: 5
-  baseFiringRate: 0.55
+  baseFiringRate: 0.89
   useAI: 1
   firingRateVariance: 0.5
   minimumFiringRate: 0.2

@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class LevelExit : MonoBehaviour
 
 {
-    [SerializeField] float levelLoadWait = 1f;
+    [SerializeField] float levelLoadWait = 3f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         StartCoroutine(LoadVictoryLevel());
     }
 

@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   itemDropPrefab: {fileID: 8428721684490831374, guid: 45ebbd48926d3a248b9573cdc5aec329, type: 3}
-  health: 1300
+  health: 1312
   score: 628
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
   applyCameraShake: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f54248867441048a3913bf86ef6af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
+  damage: 20
 --- !u!114 &3403687690804722570
 MonoBehaviour:
   m_ObjectHideFlags: 0
