@@ -13,7 +13,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] [Range(0f, 1f)] float damageVolume = 1f;
     
     static AudioPlayer instance;
-
+    public AudioSource BGM;
 
     //public AudioPlayer GetInstance()
     //{
@@ -70,5 +70,12 @@ public class AudioPlayer : MonoBehaviour
             Vector3 cameraPos = Camera.main.transform.position;
             AudioSource.PlayClipAtPoint(clip, cameraPos, volume);
         }
+    }
+
+    public void ChangeBGM(AudioClip music)
+    {
+        BGM.Stop();
+        BGM.clip = music;
+        BGM.Play();
     }
 }
