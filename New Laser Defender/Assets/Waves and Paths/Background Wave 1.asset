@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Background Wave 1
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8428721684490831374, guid: 45ebbd48926d3a248b9573cdc5aec329, type: 3}
+  - {fileID: 8428721684490831374, guid: 927aa00895ef62d4e9886fc02332e72a, type: 3}
   pathPrefab: {fileID: 67522042103378877, guid: 8f29c387dabc80d4384c29a686ef204d, type: 3}
   moveSpeed: 9
   timeBetweenEnemySpawns: 0.1

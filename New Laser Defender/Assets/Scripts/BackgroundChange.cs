@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BackgroundChange : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] UnityEvent OnCompleteEvent;
 
-    // Update is called once per frame
-    void Update()
+    //call bool variable from sprite source
+
+    //check for trigger in update
+    //set bool if triggered
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        //trigger
+        if (other.tag == "Player")
+        {
+            //set bool
+        }
     }
 }
+
+

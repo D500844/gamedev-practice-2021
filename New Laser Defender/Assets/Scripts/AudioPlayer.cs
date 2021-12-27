@@ -15,10 +15,6 @@ public class AudioPlayer : MonoBehaviour
     static AudioPlayer instance;
     public AudioSource BGM;
 
-    //public AudioPlayer GetInstance()
-    //{
-    //    return instance;
-    //}
 
     void Awake()
     {
@@ -27,20 +23,6 @@ public class AudioPlayer : MonoBehaviour
 
     void ManageSingleton()
     {
-        //if (instance != null)
-        //{
-        //    gameObject.SetActive(false);
-        //    Destroy(gameObject);
-        //}
-        //else
-        //{
-        //    instance = this;
-        //    DontDestroyOnLoad(gameObject);
-        //}
-
-        //int instanceCount = FindObjectsOfType(GetType()).Length;
-        //if (instanceCount > 1)
-
         if(instance != null)
         {
             gameObject.SetActive(false);
@@ -49,7 +31,6 @@ public class AudioPlayer : MonoBehaviour
         else
         {
             instance = this;
-            //DontDestroyOnLoad(gameObject);
         }
     }
 
