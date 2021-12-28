@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class SpriteScroller : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class SpriteScroller : MonoBehaviour
     [SerializeField] Vector2 moveSpeed;
     Vector2 offset;
     Material material;
+    SpriteRenderer spriteRenderer;
     [SerializeField] UnityEvent OnCompleteEVent;
+
     
     void Awake()
     {
@@ -21,4 +24,11 @@ public class SpriteScroller : MonoBehaviour
         offset = moveSpeed * Time.deltaTime;
         material.mainTextureOffset += offset;
     }
+
+
+
+
+
+
+
 }

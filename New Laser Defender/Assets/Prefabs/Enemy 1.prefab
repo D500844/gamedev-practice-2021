@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   itemDropPrefab: {fileID: 5455292880675259511, guid: 1effbe36376889642a1a6890f6024e15, type: 3}
-  health: 109
+  health: 89
   score: 7850
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
   applyCameraShake: 0

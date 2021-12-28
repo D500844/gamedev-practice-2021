@@ -274,3 +274,69 @@ Received Import Request.
   path: Assets/Sprite/SPA_Player_Ginger.png
   artifactKey: Guid(d19be43ae31bc984b91c600a214ce649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprite/SPA_Player_Ginger.png using Guid(d19be43ae31bc984b91c600a214ce649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79edc286f6d8d8b204af1cfba8030cc4') in 0.122698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.216747 seconds.
+  path: Assets/Sprite/SPA_Enemy_Right.png
+  artifactKey: Guid(49ca256e375548447b4cb8e88a0c4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Enemy_Right.png using Guid(49ca256e375548447b4cb8e88a0c4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7489ce7b2850fe6b056aa5a5595f92ec') in 0.010442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.184481 seconds.
+  path: Assets/Sprite/SPA_Enemy_Right.png
+  artifactKey: Guid(49ca256e375548447b4cb8e88a0c4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Enemy_Right.png using Guid(49ca256e375548447b4cb8e88a0c4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8586b63fa4e0c3a9fb3b13b1240cc3a6') in 0.028006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.148810 seconds.
+  path: Assets/Sprite/SPA_Coins.png
+  artifactKey: Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Coins.png using Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4433f7e66a95524b51e4c9452bd1c') in 0.010830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.150546 seconds.
+  path: Assets/Sprite/SPA_Coins.png
+  artifactKey: Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Coins.png using Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4432c4fe352fae395e73fae48736bb8') in 0.051977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.538171 seconds.
+  path: Assets/Sprite/SPA_Background brown tint.png
+  artifactKey: Guid(c96716e5f2525a948814bf23405f459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Background brown tint.png using Guid(c96716e5f2525a948814bf23405f459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12fb94faf383232674782a8eb878ef3') in 0.009964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.333227 seconds.
+  path: Assets/Sprite/SPA_Background brown tint.png
+  artifactKey: Guid(c96716e5f2525a948814bf23405f459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Background brown tint.png using Guid(c96716e5f2525a948814bf23405f459c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9482b8306832fea1cff615b48c52a09a') in 0.053864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.497865 seconds.
+  path: Assets/Sprite/SPA_Ladder.png
+  artifactKey: Guid(86b39f6796d0b6a4f9798843b58572c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Ladder.png using Guid(86b39f6796d0b6a4f9798843b58572c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f8bf1b0783852638f44d05fe6ed70f') in 0.010578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.632499 seconds.
+  path: Assets/Sprite/SPA_Ladder.png
+  artifactKey: Guid(86b39f6796d0b6a4f9798843b58572c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Ladder.png using Guid(86b39f6796d0b6a4f9798843b58572c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d786d8b6196cc43e24407cef7acbe3') in 0.015137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.744727 seconds.
+  path: Assets/Sprite/Spikes.png
+  artifactKey: Guid(ab3b080087988594d99256c32b00bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Spikes.png using Guid(ab3b080087988594d99256c32b00bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d12191c479463c396adbccc2b83a82') in 0.011047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.086650 seconds.
+  path: Assets/Sprite/Spikes.png
+  artifactKey: Guid(ab3b080087988594d99256c32b00bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Spikes.png using Guid(ab3b080087988594d99256c32b00bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a21c1b7cae7c062626794154b472e') in 0.017319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.750767 seconds.
+  path: Assets/Sprite/SPA_Coins.png
+  artifactKey: Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/SPA_Coins.png using Guid(8be54384e4f17cb488a7b6f1a7fef6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ca6236d2fb9a668fa85a96d58d1779') in 0.046816 seconds 

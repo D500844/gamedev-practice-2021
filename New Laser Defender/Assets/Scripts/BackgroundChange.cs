@@ -7,17 +7,16 @@ public class BackgroundChange : MonoBehaviour
 {
     [SerializeField] UnityEvent OnCompleteEvent;
 
-    //call bool variable from sprite source
+    SpriteScroller spriteScroller;
 
-    //check for trigger in update
-    //set bool if triggered
+    public Sprite newSprite;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         //trigger
         if (other.tag == "Player")
         {
-            //set bool
+            //
         }
     }
 }
