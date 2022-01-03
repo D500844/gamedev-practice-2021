@@ -2618,7 +2618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1292129660881381717, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
       propertyPath: baseFiringRate
-      value: 0.3
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: -1292129660881381717, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
       propertyPath: projectileSpeed
@@ -2783,11 +2783,11 @@ PrefabInstance:
       objectReference: {fileID: 723507697}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: damageVolume
-      value: 0.191
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume
-      value: 0.257
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: Loop
@@ -2799,7 +2799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Volume
-      value: 0.438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip
