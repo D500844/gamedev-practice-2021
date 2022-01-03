@@ -659,3 +659,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7260.191739 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/beam1.png
+  artifactKey: Guid(8d091525601896b4688363017ec26eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/beam1.png using Guid(8d091525601896b4688363017ec26eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299a18fd459f747ff764aad2c07a13d8') in 0.170599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/Backgrounds/blue.png
+  artifactKey: Guid(7828796af228e204cb8453a23a03e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/Backgrounds/blue.png using Guid(7828796af228e204cb8453a23a03e986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6ad7bddb62b2531b9605683bb0e17c') in 0.053050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/bolt_bronze.png
+  artifactKey: Guid(74d1852dbc54e6d45b705d08b345eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/bolt_bronze.png using Guid(74d1852dbc54e6d45b705d08b345eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f518bf11552525fcd1c883601c2a4c') in 0.032646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/bolt_gold.png
+  artifactKey: Guid(ae46d0d75748ad149a145e7cfc130b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Power-ups/bolt_gold.png using Guid(ae46d0d75748ad149a145e7cfc130b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbeaac9f18894c1716b166ad66b6463') in 0.029313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/beam3.png
+  artifactKey: Guid(9b9d6adce3c26474ca4add6fd9bbb21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/beam3.png using Guid(9b9d6adce3c26474ca4add6fd9bbb21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4354385d2beacdf1a0b34ec59fe6cc3a') in 0.024047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/spaceshoot assets/PNG/Parts/beamLong1.png
+  artifactKey: Guid(a719f4a6cb08f5946b003a9fd5a9b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshoot assets/PNG/Parts/beamLong1.png using Guid(a719f4a6cb08f5946b003a9fd5a9b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86585cc8c7c9c74cd11016add067e56') in 0.052533 seconds 
