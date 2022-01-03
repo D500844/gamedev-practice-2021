@@ -34,11 +34,11 @@
                 },
                 {
                     "name": "Pause",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "84f9a7f9-a150-467b-a186-3e974e86ccd9",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": true
                 },
                 {

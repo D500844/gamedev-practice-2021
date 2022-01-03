@@ -6,27 +6,16 @@ using UnityEngine.InputSystem;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
-    public bool isPaused;
+    public static bool isPaused = false;
 
-
-    void Start()
+    void OnPause(InputValue value)
     {
-        pauseMenu.SetActive(false);
+
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (isPaused)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
-        }
+        
     }
 
     public void PauseGame()
