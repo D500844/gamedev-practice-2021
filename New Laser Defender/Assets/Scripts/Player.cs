@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     [SerializeField] float paddingTop;
     [SerializeField] float paddingBottom;
 
+    PauseMenu pauseMenu;
+
     Vector2 minBounds;
     Vector2 maxBounds;
 
