@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (PauseManager.paused) return;
         Move();
     }
 

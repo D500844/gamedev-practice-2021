@@ -6,7 +6,7 @@ public class PauseManager : MonoBehaviour
 {
     PauseAction action;
 
-    public bool paused = false;
+   public static bool paused = false;
 
     private void Awake()
     {
@@ -43,12 +43,14 @@ public class PauseManager : MonoBehaviour
     public void PauseGame()
     {
         Time.timeScale = 0;
+        AudioListener.pause = true;
         paused = true;
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
+        AudioListener.pause = false;
         paused = false;
     }
 }
