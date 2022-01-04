@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762271988}
   m_Layer: 0
-  m_Name: Environment
+  m_Name: Polish/BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +499,7 @@ MonoBehaviour:
   jumpSpeed: 4.88
   ground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!4 &873672751
 Transform:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 980324264}
   - component: {fileID: 980324263}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Ground/Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
