@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
 
     //public void LoadOptionsMenu()
     //{
-    //    SceneManager.LoadScene("Options Menu");
+    //    SceneManager.LoadScene("OptionsMenu");
     //}
 
     IEnumerator WaitAndLoad(string sceneName, float delay)

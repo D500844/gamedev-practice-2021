@@ -17,6 +17,7 @@ public class Shooter : MonoBehaviour
 
     [HideInInspector] public bool isFiring;
 
+    PauseManager pause;
 
     Coroutine firingCoroutine;
     AudioPlayer audioPlayer;
@@ -42,7 +43,7 @@ public class Shooter : MonoBehaviour
 
     void Fire()
     {
-        if (isFiring && firingCoroutine == null)
+        if (PauseManager.paused == false && isFiring && firingCoroutine == null)
         {
             firingCoroutine = StartCoroutine(FireContinuously());
         }

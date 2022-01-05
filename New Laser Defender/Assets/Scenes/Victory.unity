@@ -241,6 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 848224891}
+  firstSelectionButton: {fileID: 1162619737}
 --- !u!1001 &80257779
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -241,6 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 848224891}
+  firstSelectionButton: {fileID: 251229359}
 --- !u!1001 &11936505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -471,6 +472,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+--- !u!1 &251229359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4064002051631594543, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
+  m_PrefabInstance: {fileID: 11936505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &270713773
 PrefabInstance:
   m_ObjectHideFlags: 0

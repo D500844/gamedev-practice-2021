@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PauseManager : MonoBehaviour
 {
     PauseAction action;
 
-   public static bool paused = false;
+    // initial button that will recieve controller selection
+    public GameObject gameResumeButton;
+
+    public GameObject menu;
+
+    public static bool paused = false;
 
     private void Awake()
     {
@@ -42,9 +48,15 @@ public class PauseManager : MonoBehaviour
 
     public void PauseGame()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
         AudioListener.pause = true;
         paused = true;
+        menu.SetActive(true);
+        
+        // clear selected object
+        EventSystem.current.SetSelectedGameObject(null);
+        // set a new selected object
+        EventSystem.current.SetSelectedGameObject(gameResumeButton);    
     }
 
     public void ResumeGame()
@@ -52,5 +64,6 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1;
         AudioListener.pause = false;
         paused = false;
+        menu.SetActive(false);
     }
 }
