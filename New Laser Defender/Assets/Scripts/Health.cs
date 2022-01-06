@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Health : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Health : MonoBehaviour
     [SerializeField] int health = 50;
     [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
+    public event EventHandler onEnemyHit;
 
     [SerializeField] bool applyCameraShake;
     CameraShake cameraShake;
@@ -34,17 +36,30 @@ public class Health : MonoBehaviour
         }
     }
 
+    // Let's take the following code- reverse engineer it and create
+    // an actual Healing item with appropriate sounds/particles/image/math
+    // and a power up as well. And a place to store the power ups until they
+    // are used in the UI.
 
+    // Get Triggered, worlds collide. Maybe damage will be delt.
     void OnTriggerEnter2D(Collider2D other)
     {
+        // So what is damage dealing;
         DamageDealer damageDealer = other.GetComponent<DamageDealer>();
-
+        // Ok so is it damage dealing;
         if (damageDealer != null)
         {
+            // Nice it is, let's;
+            // Get hurt
             TakeDamage(damageDealer.GetDamage());
+            // Sparkle a bit like Twilight
             PlayHitEffect();
+            // Make a cool sound
             audioPlayer.PlayDamageClip();
+            // Try to impress Megan Fox
             ShakeCamera();
+
+            // Destroy the evidence
             damageDealer.Hit();
         }
     }
@@ -56,6 +71,8 @@ public class Health : MonoBehaviour
 
     void TakeDamage(int damage)
     {
+        onEnemyHit?.Invoke(this, EventArgs.Empty);
+
         health -= damage;
         if (health <= 0)
         {
@@ -89,8 +106,11 @@ public class Health : MonoBehaviour
     {
         if (hitEffect != null)
         {
-            ParticleSystem instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+            ParticleSystem instance = Instantiate(hitEffect, 
+                                                  transform.position, 
+                                                  Quaternion.identity);
+            Destroy(instance.gameObject, instance.main.duration + 
+                                         instance.main.startLifetime.constantMax);
         }
     }
 
