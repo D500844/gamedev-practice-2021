@@ -62,7 +62,19 @@ public class Health : MonoBehaviour
             // Destroy the evidence
             damageDealer.Hit();
         }
+
+        BoWaPDamageDealer bowapdamageDealer = other.GetComponent<BoWaPDamageDealer>();
+        if (bowapdamageDealer != null)
+        {
+            TakeDamage(bowapdamageDealer.GetDamage());
+            PlayHitEffect();
+            audioPlayer.PlayDamageClip();
+            ShakeCamera();
+
+            bowapdamageDealer.Hit();
+        }
     }
+
 
     public int GetHealth()
     {
