@@ -38,10 +38,8 @@ public class Health : MonoBehaviour
 
     // Let's take the following code- reverse engineer it and create
     // an actual Healing item with appropriate sounds/particles/image/math
-    // and a power up as well. And a place to store the power ups until they
-    // are used in the UI.
+    // and a power up as well.
 
-    // Get Triggered, worlds collide. Maybe damage will be delt.
     void OnTriggerEnter2D(Collider2D other)
     {
         // So what is damage dealing;
