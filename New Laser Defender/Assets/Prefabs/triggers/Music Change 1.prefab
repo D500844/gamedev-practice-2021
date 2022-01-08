@@ -146,4 +146,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3cfeee5fc2a864d946353176b388f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newTrack: {fileID: 8300000, guid: 9456e209e6c0eb44e8860661cb73d081, type: 3}
+  newTrack: {fileID: 8300000, guid: 1b2bccc2d5129be45a72138430afd2c0, type: 3}
