@@ -11,7 +11,6 @@ public class LevelManager : MonoBehaviour
     public void LoadGame()
     {
         SceneManager.LoadScene("Game");
-        //DestroyImmediate(gameObject);
     }
 
     public void LoadMainMenu()
@@ -27,13 +26,12 @@ public class LevelManager : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("MainMenu");
-        //Application.Quit();
     }
 
-    //public void LoadOptionsMenu()
-    //{
-    //    SceneManager.LoadScene("OptionsMenu");
-    //}
+    public void LoadOptionMenu()
+    {
+        SceneManager.LoadScene("OptionMenu");
+    }
 
     IEnumerator WaitAndLoad(string sceneName, float delay)
     {

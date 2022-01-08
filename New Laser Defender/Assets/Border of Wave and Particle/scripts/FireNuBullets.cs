@@ -22,7 +22,7 @@ public class FireNuBullets : MonoBehaviour
         float angleStep = (endAngle - startAngle) / bulletsAmount;
         float angle = startAngle;
 
-        for (int i = 0; i < bulletsAmount + 1; i++)
+        for (int i = 0; i <= bulletsAmount -1; i++)
         {
             float bulDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180f);
             float bulDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180f);

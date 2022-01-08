@@ -249,6 +249,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9121394}
     m_Modifications:
+    - target: {fileID: 4064002049791888036, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
+      propertyPath: m_Spacing
+      value: 14.96
+      objectReference: {fileID: 0}
     - target: {fileID: 4064002049791888038, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_Name
       value: button group
@@ -287,7 +291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4064002049791888039, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 212.8554
+      value: 248.64
       objectReference: {fileID: 0}
     - target: {fileID: 4064002049791888039, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_LocalPosition.x
