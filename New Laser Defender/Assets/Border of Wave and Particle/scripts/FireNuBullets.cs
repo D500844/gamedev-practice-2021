@@ -5,8 +5,8 @@ using UnityEngine;
 public class FireNuBullets : MonoBehaviour
 {
     [SerializeField] private int bulletsAmount = 10;
-    [SerializeField] private float startAngle = 420f,
-                                   endAngle = 300f;
+    [SerializeField] private float startAngle = 360f;
+
 
     public float bulletFrequency =1f; // fire rate in seconds
 
@@ -19,7 +19,7 @@ public class FireNuBullets : MonoBehaviour
 
     private void Fire()
     {
-        float angleStep = (endAngle - startAngle) / bulletsAmount;
+        float angleStep = /*(endAngle - startAngle)*/360f / bulletsAmount;
         float angle = startAngle;
 
         for (int i = 0; i <= bulletsAmount -1; i++)
@@ -36,7 +36,7 @@ public class FireNuBullets : MonoBehaviour
                bul.SetActive(true);
                bul.GetComponent<NuBullet>().SetMoveDirection(bulDir);
 
-            angle += angleStep + 10f;
+            angle += angleStep ;
         }
     }
 
