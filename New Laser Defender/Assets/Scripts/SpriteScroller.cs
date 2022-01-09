@@ -11,7 +11,7 @@ public class SpriteScroller : MonoBehaviour
     Vector2 offset;
     Material material;
     SpriteRenderer spriteRenderer;
-    [SerializeField] UnityEvent OnCompleteEVent;
+    //[SerializeField] UnityEvent OnCompleteEVent;
 
     
     void Awake()

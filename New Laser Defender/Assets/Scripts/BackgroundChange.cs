@@ -5,6 +5,9 @@ using UnityEngine.Events;
 
 public class BackgroundChange : MonoBehaviour
 {
+    [SerializeField] float timeToStart = 3f;
+    [SerializeField] float timeToStop = 4f;
+    [SerializeField] bool spriteDefault = false;
     public SpriteRenderer spriteRend;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -12,8 +15,8 @@ public class BackgroundChange : MonoBehaviour
         if (other.tag == "BGtag1")
         {
             Debug.Log("test2");
-            spriteRend.enabled = false;
-            Invoke("TurnItBackOn", 3f);
+            spriteRend.enabled = spriteDefault;
+            Invoke("TurnItBackOn", timeToStart);
             StartCoroutine(TurnItBackOff());
         }
     }
@@ -25,7 +28,7 @@ public class BackgroundChange : MonoBehaviour
 
     public IEnumerator TurnItBackOff()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(timeToStop);
         spriteRend.enabled = false;
     }
 }
