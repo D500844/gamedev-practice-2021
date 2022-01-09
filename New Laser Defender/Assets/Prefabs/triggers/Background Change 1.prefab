@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 4593054113518581638}
   - component: {fileID: 5591332218972599607}
   - component: {fileID: -812758534904369826}
-  - component: {fileID: 896247631295183762}
   m_Layer: 0
   m_Name: Background Change 1
-  m_TagString: Untagged
+  m_TagString: BGtag1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,30 +133,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &896247631295183762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8428721684490831374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 752fd7bb65bdf6a4aa6aa1a22e92855b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnCompleteEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2

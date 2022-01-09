@@ -7,9 +7,7 @@ public class FireNuBullets : MonoBehaviour
     [SerializeField] private int bulletsAmount = 10;
     [SerializeField] private float startAngle = 360f;
 
-
-    public float bulletFrequency =1f; // fire rate in seconds
-
+    public float bulletFrequency =1f;
     private Vector2 bulletMoveDirection;
 
     void Start()
@@ -19,7 +17,7 @@ public class FireNuBullets : MonoBehaviour
 
     private void Fire()
     {
-        float angleStep = /*(endAngle - startAngle)*/360f / bulletsAmount;
+        float angleStep = 360f / bulletsAmount;
         float angle = startAngle;
 
         for (int i = 0; i <= bulletsAmount -1; i++)

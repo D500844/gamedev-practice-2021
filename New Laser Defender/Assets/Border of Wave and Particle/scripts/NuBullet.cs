@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class NuBullet : MonoBehaviour
 {
-    private Vector2 moveDirection;
     [SerializeField] public float moveSpeed = 5f;
+    private Vector2 moveDirection;
+
 
     private void OnEnable()
     {
         Invoke("Destroy", 5f);
     }
-
-
 
     void Update()
     {

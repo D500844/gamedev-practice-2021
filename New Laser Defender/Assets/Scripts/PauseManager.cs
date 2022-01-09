@@ -6,12 +6,8 @@ using UnityEngine.EventSystems;
 public class PauseManager : MonoBehaviour
 {
     PauseAction action;
-
-    // initial button that will recieve controller selection
     public GameObject gameResumeButton;
-
     public GameObject menu;
-
     public static bool paused = false;
 
     private void Awake()

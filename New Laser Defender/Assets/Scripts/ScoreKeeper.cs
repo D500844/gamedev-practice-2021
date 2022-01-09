@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour
-
-
 {
     int score;
-
     static ScoreKeeper instance;
 
     public int GetScore()
