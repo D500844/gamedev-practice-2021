@@ -14,7 +14,6 @@ public class BackgroundChange : MonoBehaviour
     {
         if (other.tag == "BGtag1")
         {
-            Debug.Log("test2");
             spriteRend.enabled = spriteDefault;
             Invoke("TurnItBackOn", timeToStart);
             StartCoroutine(TurnItBackOff());

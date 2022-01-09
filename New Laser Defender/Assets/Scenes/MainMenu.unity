@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: damageVolume
-      value: 0.11
+      value: 0.159
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume

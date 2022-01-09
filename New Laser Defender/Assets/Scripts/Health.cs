@@ -10,7 +10,9 @@ public class Health : MonoBehaviour
     [SerializeField] int health = 50;
     [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
+    [SerializeField] ParticleSystem healEffect;
     public event EventHandler onEnemyHit;
+    public event EventHandler onPlayerHealed;
 
     [SerializeField] bool applyCameraShake;
     CameraShake cameraShake;
@@ -71,6 +73,16 @@ public class Health : MonoBehaviour
 
             bowapdamageDealer.Hit();
         }
+
+
+        HealingItem healingItem = other.GetComponent<HealingItem>();
+        if (healingItem != null)
+        {
+            TakeHealing(healingItem.GetHealed());
+            PlayHealEffect();
+            audioPlayer.PlayHealedClip();
+            healingItem.Hit();
+        }
     }
 
 
@@ -82,11 +94,20 @@ public class Health : MonoBehaviour
     void TakeDamage(int damage)
     {
         onEnemyHit?.Invoke(this, EventArgs.Empty);
-
         health -= damage;
         if (health <= 0)
         {
             Die();
+        }
+    }
+
+    void TakeHealing(int healing)
+    {
+        onPlayerHealed?.Invoke(this, EventArgs.Empty);
+        health += healing;
+        if (health >= 50)
+        {
+            health = 50;
         }
     }
 
@@ -120,6 +141,18 @@ public class Health : MonoBehaviour
                                                   transform.position, 
                                                   Quaternion.identity);
             Destroy(instance.gameObject, instance.main.duration + 
+                                         instance.main.startLifetime.constantMax);
+        }
+    }
+
+    void PlayHealEffect()
+    {
+        if (healEffect != null)
+        {
+            ParticleSystem instance = Instantiate(healEffect,
+                                                  transform.position,
+                                                  Quaternion.identity);
+            Destroy(instance.gameObject, instance.main.duration +
                                          instance.main.startLifetime.constantMax);
         }
     }

@@ -11,7 +11,11 @@ public class AudioPlayer : MonoBehaviour
     [Header("Damage")]
     [SerializeField] AudioClip damageClip;
     [SerializeField] [Range(0f, 1f)] float damageVolume = 1f;
-    
+
+    [Header("Healing")]
+    [SerializeField] AudioClip healedClip;
+    [SerializeField] [Range(0f, 1f)] float healingVolume = 1f;
+
     static AudioPlayer instance;
     public AudioSource BGM;
 
@@ -42,6 +46,11 @@ public class AudioPlayer : MonoBehaviour
     public void PlayDamageClip()
     {
         PlayClip(damageClip, damageVolume);
+    }
+
+    public void PlayHealedClip()
+    {
+        PlayClip(healedClip, healingVolume);
     }
 
     void PlayClip(AudioClip clip, float volume)

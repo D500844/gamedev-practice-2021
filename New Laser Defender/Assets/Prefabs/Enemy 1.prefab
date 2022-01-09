@@ -184,10 +184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  itemDropPrefab: {fileID: 5455292880675259511, guid: 1effbe36376889642a1a6890f6024e15, type: 3}
+  itemDropPrefab: {fileID: 1138146408787702757, guid: 10c6cd61aa0354348838d4e828f65ca3, type: 3}
   health: 89
   score: 7850
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
+  healEffect: {fileID: 0}
   applyCameraShake: 0
 --- !u!114 &1152737196363137087
 MonoBehaviour:
