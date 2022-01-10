@@ -38,28 +38,20 @@ public class Health : MonoBehaviour
         }
     }
 
-    // Let's take the following code- reverse engineer it and create
-    // an actual Healing item with appropriate sounds/particles/image/math
-    // and a power up as well.
-
     void OnTriggerEnter2D(Collider2D other)
     {
-        // So what is damage dealing;
+        //////////////////////////////////////////////////////////////////////
+        //       On Trigger components
+        //////////////////////////////////////////////////////////////////////
+        //
+
         DamageDealer damageDealer = other.GetComponent<DamageDealer>();
-        // Ok so is it damage dealing;
         if (damageDealer != null)
         {
-            // Nice it is, let's;
-            // Get hurt
             TakeDamage(damageDealer.GetDamage());
-            // Sparkle a bit like Twilight
             PlayHitEffect();
-            // Make a cool sound
             audioPlayer.PlayDamageClip();
-            // Try to impress Megan Fox
             ShakeCamera();
-
-            // Destroy the evidence
             damageDealer.Hit();
         }
 
@@ -70,7 +62,6 @@ public class Health : MonoBehaviour
             PlayHitEffect();
             audioPlayer.PlayDamageClip();
             ShakeCamera();
-
             bowapdamageDealer.Hit();
         }
 
@@ -85,12 +76,10 @@ public class Health : MonoBehaviour
         }
     }
 
-
-    public int GetHealth()
-    {
-        return health;
-    }
-
+    //////////////////////////////////////////////////////////////////////////////////
+    ///      Event System 
+    /// //////////////////////////////////////////////////////////////////////////////
+   
     void TakeDamage(int damage)
     {
         onEnemyHit?.Invoke(this, EventArgs.Empty);
@@ -109,6 +98,12 @@ public class Health : MonoBehaviour
         {
             health = 50;
         }
+    }
+
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     void Die()
