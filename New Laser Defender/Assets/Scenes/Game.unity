@@ -584,6 +584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1228690525}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -1508,6 +1512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 980702064}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -1823,6 +1831,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 980702064}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -1888,6 +1900,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 980702064}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -2420,7 +2436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfigs:
-  - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
+  - {fileID: 11400000, guid: 4edad69bf2d65c14d998d9610d8b9835, type: 2}
   - {fileID: 11400000, guid: 3aac528b3466bb54791582cf79ab75b6, type: 2}
   - {fileID: 11400000, guid: ecf1873c599a27440b840a28625309fc, type: 2}
   - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
@@ -2486,6 +2502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 980702064}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -2551,6 +2571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1439494157}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -3258,19 +3282,19 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4e426b8fcad8d924fa449df43b537afd, type: 3}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: damageVolume
-      value: 0.034
+      value: 0.375
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: healingVolume
-      value: 0
+      value: 0.597
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: powerUpVolume
-      value: 0
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume
-      value: 0.012
+      value: 0.113
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: Loop
@@ -3282,7 +3306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Volume
-      value: 0
+      value: 0.674
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip
@@ -3309,6 +3333,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1439494157}
     m_Modifications:
+    - target: {fileID: 7277854034466896060, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: projectilePrefab
       value: 
