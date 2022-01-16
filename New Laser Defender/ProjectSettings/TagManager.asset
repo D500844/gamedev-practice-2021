@@ -6,6 +6,7 @@ TagManager:
   tags:
   - background
   - BGtag1
+  - PowerUp
   layers:
   - Default
   - TransparentFX
