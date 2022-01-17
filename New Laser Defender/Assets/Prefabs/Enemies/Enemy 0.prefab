@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  itemDropPrefab: {fileID: 1138146408787702757, guid: 10c6cd61aa0354348838d4e828f65ca3, type: 3}
+  itemDropPrefab: {fileID: 1138146408787702757, guid: b6795255c058cf743a3e5b7d5113dc4c, type: 3}
   health: 29
   score: 785
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}

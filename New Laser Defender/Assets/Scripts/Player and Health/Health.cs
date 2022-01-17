@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
     [SerializeField] ParticleSystem healEffect;
+    [SerializeField] ParticleSystem chorusonEffect;
+    [SerializeField] ParticleSystem powerUpEffect;
     public event EventHandler onEnemyHit;
     public event EventHandler onPlayerHealed;
 
@@ -75,13 +77,20 @@ public class Health : MonoBehaviour
             healingItem.Hit();
         }
 
-        
+        ChorusActivator chorusItem = other.GetComponent<ChorusActivator>();
+        if (chorusItem != null)
+        {
+            ChorusUp();
+            ChorusEffect();
+            audioPlayer.PlayPowerUpClip();
+            chorusItem.Hit();
+        }
     }
 
     //////////////////////////////////////////////////////////////////////////////////
     ///      Event System 
     /// //////////////////////////////////////////////////////////////////////////////
-   
+
     void TakeDamage(int damage)
     {
         onEnemyHit?.Invoke(this, EventArgs.Empty);
@@ -134,7 +143,42 @@ public class Health : MonoBehaviour
     //////////////////////////////////////////////////////////////////////////////////
     ///      Special Effects
     /// //////////////////////////////////////////////////////////////////////////////
-    
+
+
+    //////////////////////////
+    ///     Chorus
+    //////////////////////////
+    ///
+    [Header("\b")]
+    [Header("Chorus Plug ins")]
+    [SerializeField] GameObject ChorusB;
+    [SerializeField] GameObject ChorusG;
+    [SerializeField] GameObject ChorusP;
+    [SerializeField] GameObject Bluech;
+    [SerializeField] GameObject Greench;
+    [SerializeField] GameObject Purplech;
+
+
+    public void ChorusUp()
+    {
+        if (Bluech.activeSelf is true)
+        {
+            ChorusB.SetActive(true);
+        }
+        if (Greench.activeSelf is true)
+        {
+            ChorusG.SetActive(true);
+        }   
+        if(Purplech.activeSelf is true)
+        {
+            ChorusP.SetActive(true);
+        }
+            
+    }
+
+    /////////////////////////////////////////
+
+
     void PlayHitEffect()
     {
         if (hitEffect != null)
@@ -152,6 +196,30 @@ public class Health : MonoBehaviour
         if (healEffect != null)
         {
             ParticleSystem instance = Instantiate(healEffect,
+                                                  transform.position,
+                                                  Quaternion.identity);
+            Destroy(instance.gameObject, instance.main.duration +
+                                         instance.main.startLifetime.constantMax);
+        }
+    }
+
+    void ChorusEffect()
+    {
+        if (chorusonEffect != null)
+        {
+            ParticleSystem instance = Instantiate(chorusonEffect,
+                                                  transform.position,
+                                                  Quaternion.identity);
+            Destroy(instance.gameObject, instance.main.duration +
+                                         instance.main.startLifetime.constantMax);
+        }
+    }
+
+    void PlayPowerUpEffect()
+    {
+        if (powerUpEffect != null)
+        {
+            ParticleSystem instance = Instantiate(powerUpEffect,
                                                   transform.position,
                                                   Quaternion.identity);
             Destroy(instance.gameObject, instance.main.duration +
