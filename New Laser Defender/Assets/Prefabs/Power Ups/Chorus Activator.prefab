@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 3537945394690220154}
   - component: {fileID: 5443860107287817717}
   - component: {fileID: 6821873007182995759}
+  - component: {fileID: 3711764447470155524}
   m_Layer: 6
   m_Name: Chorus Activator
   m_TagString: ChorusOn
@@ -166,5 +167,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b549295697a95854ba52d8d8e76703c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3711764447470155524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138146408787702757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676a37f1d8f7dd74d931c489d912d787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

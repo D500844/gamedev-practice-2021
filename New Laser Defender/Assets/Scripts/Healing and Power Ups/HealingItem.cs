@@ -6,6 +6,16 @@ public class HealingItem : MonoBehaviour
 {
     [SerializeField] int healing = 10;
 
+    private void Awake()
+    {
+        Invoke("Umissedme", 3f);
+    }
+
+    void Umissedme()
+    {
+        Object.Destroy(this.gameObject);
+    }
+
     public int GetHealed()
     {
         return healing;
