@@ -597,6 +597,10 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 493245577}
+    - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: projectileLifetime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896062, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -925,7 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 493245577}
   projectileSpeed: 26.85
-  projectileLifetime: 5
+  projectileLifetime: 1
   baseFiringRate: 0.2
   useAI: 0
   firingRateVariance: 0
@@ -1449,7 +1453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 493245577}
   projectileSpeed: 26.85
-  projectileLifetime: 5
+  projectileLifetime: 1
   baseFiringRate: 0.2
   useAI: 0
   firingRateVariance: 0
@@ -1972,6 +1976,10 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 493245577}
+    - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: projectileLifetime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896062, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2255,7 +2263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 493245577}
   projectileSpeed: 26.85
-  projectileLifetime: 5
+  projectileLifetime: 1
   baseFiringRate: 0.2
   useAI: 0
   firingRateVariance: 0
@@ -2523,7 +2531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfigs:
-  - {fileID: 11400000, guid: 4edad69bf2d65c14d998d9610d8b9835, type: 2}
+  - {fileID: 11400000, guid: 71bf5d767029c774d83e87a88b571f07, type: 2}
   - {fileID: 11400000, guid: 3aac528b3466bb54791582cf79ab75b6, type: 2}
   - {fileID: 11400000, guid: ecf1873c599a27440b840a28625309fc, type: 2}
   - {fileID: 11400000, guid: 12c1c1b9bd0f45845a1f8373d8012a69, type: 2}
@@ -2688,6 +2696,10 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 493245577}
+    - target: {fileID: 7277854034466896061, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
+      propertyPath: projectileLifetime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7277854034466896062, guid: 00e356a84e3109447b062729dafb5e4d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2839,7 +2851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 493245577}
   projectileSpeed: 26.85
-  projectileLifetime: 5
+  projectileLifetime: 1
   baseFiringRate: 0.2
   useAI: 0
   firingRateVariance: 0
@@ -2914,15 +2926,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4544416715082087031, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4790205043712990594, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5455292880675259511, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_Name
       value: Projectile_Player X
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: SizeModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime0
+      value: 7710
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 25636
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime2
+      value: 47802
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime3
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key3.b
+      value: 0.8421473
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key3.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key3.r
+      value: 0.027450979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950268617769408395, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumColorKeys
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7155830942003853312, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_Name
@@ -2932,9 +2984,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8466602702921857638, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+    - target: {fileID: 7589288266453344792, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466602702921857638, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8515342297897984204, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_IsActive
@@ -2942,7 +2998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8952928985377917683, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2802426152424218350, guid: 24f517001b114aa4480dc8e889f3246b, type: 3}

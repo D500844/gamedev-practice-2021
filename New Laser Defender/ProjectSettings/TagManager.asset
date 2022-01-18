@@ -8,6 +8,7 @@ TagManager:
   - BGtag1
   - PowerUp
   - ChorusOn
+  - AudioPlayer
   layers:
   - Default
   - TransparentFX
