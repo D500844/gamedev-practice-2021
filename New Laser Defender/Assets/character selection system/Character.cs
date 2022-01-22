@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Character
 {
-    GameObject weaponChoice;
+    public int weaponChoice;
     public string characterName;
     public Sprite characterSprite;
 }

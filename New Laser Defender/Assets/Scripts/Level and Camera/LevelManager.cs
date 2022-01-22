@@ -17,6 +17,11 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    
+    public void LoadCharSelect()
+    {
+        SceneManager.LoadScene("CharSelect");
+    }
 
     public void LoadGameOver()
     {
