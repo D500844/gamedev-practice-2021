@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class SliderScripts : MonoBehaviour
 {
+
+    [SerializeField] public GameObject Boss1;
     public Slider slider;
     public Image fill;
 
@@ -16,6 +18,11 @@ public class SliderScripts : MonoBehaviour
     }
 
     public void FillSlider()
+    {
+        fill.fillAmount = slider.value;
+    }
+
+    public void Update()
     {
         fill.fillAmount = slider.value;
     }

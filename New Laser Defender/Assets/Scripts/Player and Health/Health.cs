@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] bool isPlayer;
+    [SerializeField] bool isBoss;
     [SerializeField] GameObject itemDropPrefab;
-    [SerializeField] int health = 50;
+    [SerializeField] bool doubleItemDrop = false;
+    [SerializeField] GameObject doubleItemDropPrefab;
+    [SerializeField] public int health = 50;
     [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
     [SerializeField] ParticleSystem healEffect;
@@ -15,6 +19,9 @@ public class Health : MonoBehaviour
     [SerializeField] ParticleSystem powerUpEffect;
     public event EventHandler onEnemyHit;
     public event EventHandler onPlayerHealed;
+    public Slider bossSlider;
+    public GameObject bossSliderToggle;
+
 
     [SerializeField] bool applyCameraShake;
     CameraShake cameraShake;
@@ -37,6 +44,12 @@ public class Health : MonoBehaviour
         if(isPlayer && health > 50)
         {
             health = 50;
+        }
+
+        if(isBoss == true)
+        {
+            //bossSlider.value = health;
+            //bossSliderToggle.SetActive(true);
         }
     }
 
@@ -137,6 +150,14 @@ public class Health : MonoBehaviour
                                               transform.position,
                                               Quaternion.identity);
         Rigidbody2D rb = instance.GetComponent<Rigidbody2D>();
+
+        if (doubleItemDrop == true)
+        {
+            GameObject instance2 = Instantiate(doubleItemDropPrefab,
+                                      transform.position,
+                                      Quaternion.identity);
+            Rigidbody2D rb2 = instance2.GetComponent<Rigidbody2D>();
+        }
     }
 
 

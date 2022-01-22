@@ -2,19 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class LevelManager : MonoBehaviour
 {
     AudioPlayer audioPlayer;
-    [SerializeField] float sceneLoadDelay = 2f;
+    PauseManager pauseManager;
+    //[SerializeField] float sceneLoadDelay = 2f;
 
-    public void LoadGame()
+    public void LoadLevel1()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level1");
     }
 
     public void LoadMainMenu()
     {
+        PauseManager.paused = false;
+        Time.timeScale = 1;
+        AudioListener.pause = false;
         SceneManager.LoadScene("MainMenu");
     }
     
@@ -25,7 +30,7 @@ public class LevelManager : MonoBehaviour
 
     public void LoadGameOver()
     {
-        StartCoroutine(WaitAndLoad("GameOver", sceneLoadDelay));
+        SceneManager.LoadScene("GameOver");
     }
 
     public void QuitGame()
@@ -35,12 +40,15 @@ public class LevelManager : MonoBehaviour
 
     public void LoadOptionMenu()
     {
+        PauseManager.paused = false;
+        Time.timeScale = 1;
+        AudioListener.pause = false;
         SceneManager.LoadScene("OptionMenu");
     }
 
-    IEnumerator WaitAndLoad(string sceneName, float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(sceneName);
-    }
+    //IEnumerator WaitAndLoad(string sceneName, float delay)
+    //{
+    //    yield return new WaitForSeconds(delay);
+    //    SceneManager.LoadScene(sceneName);
+    //}
 }

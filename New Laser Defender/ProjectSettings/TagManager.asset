@@ -9,6 +9,9 @@ TagManager:
   - PowerUp
   - ChorusOn
   - AudioPlayer
+  - BGtag2
+  - Water
+  - Boss
   layers:
   - Default
   - TransparentFX
