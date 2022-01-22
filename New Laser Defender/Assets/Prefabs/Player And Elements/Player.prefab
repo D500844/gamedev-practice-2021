@@ -139,7 +139,16 @@ MonoBehaviour:
   health: 50
   score: 0
   hitEffect: {fileID: 5070726162737640441, guid: cce394f94e0c7304abd393b4f6edf004, type: 3}
+  healEffect: {fileID: 0}
+  chorusonEffect: {fileID: 0}
+  powerUpEffect: {fileID: 0}
   applyCameraShake: 1
+  ChorusB: {fileID: 0}
+  ChorusG: {fileID: 0}
+  ChorusP: {fileID: 0}
+  Bluech: {fileID: 0}
+  Greench: {fileID: 0}
+  Purplech: {fileID: 0}
 --- !u!114 &-1292129660881381717
 MonoBehaviour:
   m_ObjectHideFlags: 0
