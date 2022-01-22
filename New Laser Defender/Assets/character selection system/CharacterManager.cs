@@ -10,7 +10,7 @@ public class CharacterManager : MonoBehaviour
 
     public Text nameText;
     public SpriteRenderer artworkSprite;
-    public GameObject weaponChoice;
+    //public GameObject weaponChoice;
 
     private int selectedOption = 0;
 
