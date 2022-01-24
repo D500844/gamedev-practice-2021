@@ -282,8 +282,12 @@ PrefabInstance:
       value: 0.159
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
+      propertyPath: shootingClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bce7f42b52c7e1440b0795ad86d5941d, type: 3}
+    - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume
-      value: 0.05
+      value: 0.456
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: Priority
@@ -291,7 +295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Volume
-      value: 0.777
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip
