@@ -12,6 +12,7 @@ TagManager:
   - BGtag2
   - Water
   - Boss
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 3403687690804722570}
   m_Layer: 6
   m_Name: Enemy 0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
+  isBoss: 0
   itemDropPrefab: {fileID: 1138146408787702757, guid: 10c6cd61aa0354348838d4e828f65ca3, type: 3}
   doubleItemDrop: 0
   doubleItemDropPrefab: {fileID: 0}
@@ -193,6 +194,8 @@ MonoBehaviour:
   healEffect: {fileID: 0}
   chorusonEffect: {fileID: 0}
   powerUpEffect: {fileID: 0}
+  bossSlider: {fileID: 0}
+  bossSliderToggle: {fileID: 0}
   applyCameraShake: 0
   ChorusB: {fileID: 0}
   ChorusG: {fileID: 0}

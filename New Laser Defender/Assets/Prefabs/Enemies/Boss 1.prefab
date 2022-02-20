@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
+  isEnemy: 1
   isBoss: 1
   itemDropPrefab: {fileID: 8428721684490831374, guid: 45ebbd48926d3a248b9573cdc5aec329, type: 3}
   doubleItemDrop: 1

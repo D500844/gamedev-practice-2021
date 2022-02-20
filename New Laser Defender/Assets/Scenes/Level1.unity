@@ -500,8 +500,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213298432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.13, y: 30.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: 5.73, z: 0}
+  m_LocalScale: {x: 0.24, y: 0.24, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 468442593}
@@ -870,8 +870,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468442592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0574, y: 0.028699875, z: 0}
-  m_LocalScale: {x: 0.5294443, y: 0.8795623, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.17, y: 2.17, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 213298433}
@@ -923,7 +923,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -2
-  m_Sprite: {fileID: 21300000, guid: eca43587d6dc1374ea529477f3999db2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 050f58208a46b704cb782cd634bff1fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -987,7 +987,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.48, y: 20.48}
+    oldSize: {x: 4.8, y: 8}
     newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2566,8 +2566,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119847065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0154, y: -0.0309, z: 0}
+  m_LocalScale: {x: 0.24683277, y: 0.3958667, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 468442593}
@@ -2613,7 +2613,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -21
+  m_SortingOrder: -7
   m_Sprite: {fileID: 21300000, guid: a1542ff7c6a875c4f8f3f3a179f92b5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2845,7 +2845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterDB: {fileID: 11400000, guid: 7d0b2a68e57b18d46898299ef55791c2, type: 2}
   artworkSprite: {fileID: 1124031041}
-  CarCar: {fileID: 21300000, guid: 46ba037673e6c6c4eb427ef63878a813, type: 3}
+  CarCar: {fileID: 21300000, guid: fc09188fb9d2fdc42a2bacca66d317c9, type: 3}
   Maya: {fileID: 21300000, guid: e8e50d475324e014096298c260e2f634, type: 3}
   VanHelsing: {fileID: 21300000, guid: 7291b67f3bedd2b43a16bf10cd3a4a4a, type: 3}
   Blue: {fileID: 1627668177}
@@ -2892,7 +2892,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46ba037673e6c6c4eb427ef63878a813, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc09188fb9d2fdc42a2bacca66d317c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4999,6 +4999,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3432862751522417558, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432862751522417558, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -5129,7 +5133,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 4e426b8fcad8d924fa449df43b537afd, type: 3}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: damageVolume
-      value: 0.375
+      value: 0.228
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingClip
@@ -5137,15 +5141,15 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: bce7f42b52c7e1440b0795ad86d5941d, type: 3}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: healingVolume
-      value: 0.597
+      value: 0.361
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: powerUpVolume
-      value: 0.61
+      value: 0.424
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume
-      value: 1
+      value: 0.143
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: Loop
@@ -5157,7 +5161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_Volume
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: m_audioClip

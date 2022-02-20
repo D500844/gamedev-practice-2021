@@ -8,7 +8,6 @@ public class LevelManager : MonoBehaviour
 {
     AudioPlayer audioPlayer;
     PauseManager pauseManager;
-    //[SerializeField] float sceneLoadDelay = 2f;
 
     public void LoadLevel1()
     {
@@ -30,6 +29,13 @@ public class LevelManager : MonoBehaviour
 
     public void LoadGameOver()
     {
+        Time.timeScale = 0.3f;
+        Invoke("fuckingBullshit", 1f);
+    }
+
+    private void fuckingBullshit()
+    {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("GameOver");
     }
 
@@ -45,10 +51,4 @@ public class LevelManager : MonoBehaviour
         AudioListener.pause = false;
         SceneManager.LoadScene("OptionMenu");
     }
-
-    //IEnumerator WaitAndLoad(string sceneName, float delay)
-    //{
-    //    yield return new WaitForSeconds(delay);
-    //    SceneManager.LoadScene(sceneName);
-    //}
 }

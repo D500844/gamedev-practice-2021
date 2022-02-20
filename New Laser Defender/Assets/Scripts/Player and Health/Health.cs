@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -53,12 +54,19 @@ public class Health : MonoBehaviour
         }
     }
 
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         //////////////////////////////////////////////////////////////////////
         //       On Trigger components
         //////////////////////////////////////////////////////////////////////
         //
+
+        if (other.gameObject.tag == "Enemy")
+        {
+            health = 0;
+        }
 
         DamageDealer damageDealer = other.GetComponent<DamageDealer>();
         if (damageDealer != null)
@@ -135,13 +143,13 @@ public class Health : MonoBehaviour
         if (!isPlayer)
         {
             scoreKeeper.ModifyScore(score);
+            SpawnItem();
         }
         else
         {
             levelManager.LoadGameOver();
         }
         Destroy(gameObject);
-        SpawnItem();
     }
 
     void SpawnItem()
@@ -207,7 +215,7 @@ public class Health : MonoBehaviour
             ParticleSystem instance = Instantiate(hitEffect, 
                                                   transform.position, 
                                                   Quaternion.identity);
-            Destroy(instance.gameObject, instance.main.duration + 
+            Destroy(instance.gameObject, instance.main.duration +
                                          instance.main.startLifetime.constantMax);
         }
     }
