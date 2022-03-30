@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class FireNuBulletspattern2 : MonoBehaviour
 {
-    public float bulletFrequency =1f; 
+    public float bulletFrequency2 = 1f; 
     private float angle = 0f;
 
     void Start()
     {
-        InvokeRepeating("Fire", 0f, bulletFrequency);    
+        InvokeRepeating("Fire", 0f, bulletFrequency2);    
     }
 
     private void Fire()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireNuBullets : MonoBehaviour
 {
-    [SerializeField] private int bulletsAmount = 10;
+    [SerializeField] public int bulletsAmount = 10;
     [SerializeField] private float startAngle = 360f;
 
     public float bulletFrequency =1f;

@@ -22,11 +22,17 @@ public class Health : MonoBehaviour
     public event EventHandler onPlayerHealed;
     public Slider bossSlider;
     public GameObject bossSliderToggle;
-
+    public bool secondForm = false;
+    private float changeInThisTime = 1;
 
     [SerializeField] bool applyCameraShake;
+    [SerializeField] bool applyViolentCameraShake;
     CameraShake cameraShake;
+    CameraShake violentCameraShake;
 
+    [SerializeField] Shooter shooter;
+    [SerializeField] FireNuBullets fireNuBullets;
+    [SerializeField] FireNuBulletspattern2 fireNuBulletspattern2;
     AudioPlayer audioPlayer;
     ScoreKeeper scoreKeeper;
     LevelManager levelManager;
@@ -153,18 +159,51 @@ public class Health : MonoBehaviour
         return health;
     }
 
+    public void SecondFormSet()
+    {
+        secondForm = true;
+    }
+
     void Die()
     {
-        if (!isPlayer)
+        ///////////////////////////////////////////////////////////////////////////
+        // Second Form Boss Script
+        ///////////////////////////////////////////////////////////////////////////
+
+        if (isBoss && secondForm == false)
+        {
+            Invoke("SecondFormSet", changeInThisTime);
+            health = 2465;
+            fireNuBulletspattern2.bulletFrequency2 = .03f;
+            fireNuBullets.bulletFrequency = .7f;
+            fireNuBullets.bulletsAmount = 70;
+            shooter.baseFiringRate = .14f;
+            shooter.firingRateVariance = .1f;
+            shooter.minimumFiringRate = .09f;
+            ShakeCamera();
+            PlayPowerUpEffect();
+
+        }
+        
+        if (isBoss && secondForm == true)
         {
             scoreKeeper.ModifyScore(score);
             SpawnItem();
+            Destroy(gameObject);
         }
-        else
+
+        if (!isPlayer && !isBoss)
         {
+            scoreKeeper.ModifyScore(score);
+            SpawnItem();
+            Destroy(gameObject);
+        }
+
+        if (isPlayer)
+        {
+            Destroy(gameObject);
             levelManager.LoadGameOver();
         }
-        Destroy(gameObject);
     }
 
     void SpawnItem()
@@ -182,6 +221,7 @@ public class Health : MonoBehaviour
             Rigidbody2D rb2 = instance2.GetComponent<Rigidbody2D>();
         }
     }
+
 
 
     //////////////////////////////////////////////////////////////////////////////////
@@ -336,4 +376,13 @@ public class Health : MonoBehaviour
             cameraShake.Play();
         }
     }
+
+    void ViolentShakeCamera()
+    {
+        if (cameraShake != null && applyViolentCameraShake)
+        {
+            violentCameraShake.ViolentPlay();
+        }
+    }
+
 }

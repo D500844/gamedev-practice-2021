@@ -635,7 +635,12 @@ MonoBehaviour:
   powerUpEffect: {fileID: 0}
   bossSlider: {fileID: 0}
   bossSliderToggle: {fileID: 0}
+  secondForm: 0
   applyCameraShake: 0
+  applyViolentCameraShake: 0
+  shooter: {fileID: 3403687690804722570}
+  fireNuBullets: {fileID: 4257154278315139188}
+  fireNuBulletspattern2: {fileID: -8999186648373684777}
   Bluech: {fileID: 0}
   Greench: {fileID: 0}
   Purplech: {fileID: 0}
@@ -693,9 +698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fdfbf1b2d2fb8b4e89243d9dbc2a86f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletsAmount: 14
+  bulletsAmount: 26
   startAngle: 360
-  bulletFrequency: 0.8
+  bulletFrequency: 2.37
 --- !u!114 &-8999186648373684777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,7 +713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf83d49ee6056a45a0b70b31a1525dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletFrequency: 0.15
+  bulletFrequency2: 0.06
 --- !u!95 &7997755532755396199
 Animator:
   serializedVersion: 4
