@@ -11,6 +11,12 @@ public class UIBossDisplay : MonoBehaviour
     [SerializeField] Slider bossHealthSlider;
     [SerializeField] Health bossHealth;
 
+    public static UIBossDisplay instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         bossHealthSlider.maxValue = bossHealth.GetHealth();
