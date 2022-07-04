@@ -12,6 +12,12 @@ public class FireNuBulletspattern2 : MonoBehaviour
         InvokeRepeating("Fire", 0f, bulletFrequency2);    
     }
 
+    public void SecondStart()
+    
+    {
+        InvokeRepeating("Fire", 0f, bulletFrequency2);
+    }
+
     private void Fire()
     {
 

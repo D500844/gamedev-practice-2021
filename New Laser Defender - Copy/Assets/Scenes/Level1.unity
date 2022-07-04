@@ -5181,6 +5181,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 493245577}
     - target: {fileID: 5347372645496423936, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
+      propertyPath: doubleItemDrop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347372645496423936, guid: 0ae9a8a24b5f7f94bae53e70e3811ceb, type: 3}
       propertyPath: itemDropPrefab
       value: 
       objectReference: {fileID: 1138146408787702757, guid: 10c6cd61aa0354348838d4e828f65ca3, type: 3}

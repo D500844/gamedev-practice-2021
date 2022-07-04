@@ -52,12 +52,6 @@ public class Health : MonoBehaviour
         {
             health = 50;
         }
-
-        if(isBoss == true)
-        {
-            //bossSlider.value = health;
-            //bossSliderToggle.SetActive(true);
-        }
     }
 
     //////////////////////////////////////////////////////////////////////////////////
@@ -175,6 +169,7 @@ public class Health : MonoBehaviour
             Invoke("SecondFormSet", changeInThisTime);
             health = 2465;
             fireNuBulletspattern2.bulletFrequency2 = .03f;
+            fireNuBulletspattern2.SecondStart();
             fireNuBullets.bulletFrequency = .7f;
             fireNuBullets.bulletsAmount = 70;
             shooter.baseFiringRate = .14f;
@@ -182,7 +177,6 @@ public class Health : MonoBehaviour
             shooter.minimumFiringRate = .09f;
             ShakeCamera();
             PlayPowerUpEffect();
-
         }
         
         if (isBoss && secondForm == true)
@@ -243,7 +237,6 @@ public class Health : MonoBehaviour
     [SerializeField] GameObject ChorusP;
 
 
-
     public void ChorusUp()
     {
         if (Bluech.activeSelf is true)
@@ -258,7 +251,6 @@ public class Health : MonoBehaviour
         {
             ChorusP.SetActive(true);
         }
-            
     }
 
     //////////////////////////
