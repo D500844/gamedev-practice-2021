@@ -197,3 +197,15 @@ Received Import Request.
   path: Assets/tiles/platforms pallete.prefab
   artifactKey: Guid(6161a33007a3ded40ab4fbc59f89f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/tiles/platforms pallete.prefab using Guid(6161a33007a3ded40ab4fbc59f89f605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b29d660e56e5840acf3443614d19e') in 0.020196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.646145 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.008912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 778.358353 seconds.
+  path: Assets/sprites/idle.anim
+  artifactKey: Guid(d2960b4e1554f5e45b022c2d9a534e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/idle.anim using Guid(d2960b4e1554f5e45b022c2d9a534e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25b737f8ad0a19f9bb37e35f642fe41') in 0.021661 seconds 
