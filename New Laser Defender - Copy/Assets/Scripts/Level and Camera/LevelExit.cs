@@ -10,15 +10,15 @@ public class LevelExit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        StartCoroutine(LoadVictoryLevel());
+        SceneManager.LoadScene("Victory");
+    //    StartCoroutine(LoadVictoryLevel());
     }
 
-    IEnumerator LoadVictoryLevel()
-    {
-        yield return new WaitForSecondsRealtime(levelLoadWait);
-        SceneManager.LoadScene("Victory");
-    }
+   // IEnumerator LoadVictoryLevel()
+   // {
+   //     yield return new WaitForSecondsRealtime(levelLoadWait);
+   //     SceneManager.LoadScene("Victory");
+   // }
 
 
 }
