@@ -83,6 +83,8 @@ public class PlayerMovement : MonoBehaviour
         myrigidbody.velocity = climbVelocity;
         myrigidbody.gravityScale = 0f;
 
+        bool playerHasVerticalSpeed = Mathf.Abs(myrigidbody.velocity.y) > Mathf.Epsilon;
         myAnimator.SetBool("isClimbing", true);
+        myAnimator.SetBool("isRunning", false);
     }
 }
