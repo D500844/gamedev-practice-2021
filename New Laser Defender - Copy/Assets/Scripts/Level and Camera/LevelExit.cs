@@ -6,19 +6,18 @@ using UnityEngine.SceneManagement;
 public class LevelExit : MonoBehaviour
 
 {
-    [SerializeField] float levelLoadWait = 3f;
+    [SerializeField] float levelLoadWait = 5f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("Victory");
-    //    StartCoroutine(LoadVictoryLevel());
+        StartCoroutine(LoadVictoryLevel());
     }
 
-   // IEnumerator LoadVictoryLevel()
-   // {
-   //     yield return new WaitForSecondsRealtime(levelLoadWait);
-   //     SceneManager.LoadScene("Victory");
-   // }
+      IEnumerator LoadVictoryLevel()
+      {
+          yield return new WaitForSecondsRealtime(levelLoadWait);
+          SceneManager.LoadScene("Victory");
+      }
 
 
 }

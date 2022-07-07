@@ -168,13 +168,13 @@ public class Health : MonoBehaviour
         {
             Invoke("SecondFormSet", changeInThisTime);
             health = 2465;
-            fireNuBulletspattern2.bulletFrequency2 = .03f;
+            fireNuBulletspattern2.bulletFrequency2 = .08f;
             fireNuBulletspattern2.SecondStart();
-            fireNuBullets.bulletFrequency = .7f;
+            fireNuBullets.bulletFrequency = .85f;
             fireNuBullets.bulletsAmount = 70;
-            shooter.baseFiringRate = .14f;
+            shooter.baseFiringRate = .25f;
             shooter.firingRateVariance = .1f;
-            shooter.minimumFiringRate = .09f;
+            shooter.minimumFiringRate = .15f;
             ShakeCamera();
             PlayPowerUpEffect();
         }

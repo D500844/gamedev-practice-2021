@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Ground
   - Ladder
-  - 
+  - mushroom
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Ladder
     uniqueID: 1701862433
+    locked: 0
+  - name: Mushroom
+    uniqueID: 1037040911
     locked: 0
   - name: player
     uniqueID: 3995344329

@@ -198,13 +198,24 @@ MonoBehaviour:
   powerUpEffect: {fileID: 0}
   bossSlider: {fileID: 0}
   bossSliderToggle: {fileID: 0}
+  secondForm: 0
   applyCameraShake: 0
-  ChorusB: {fileID: 0}
-  ChorusG: {fileID: 0}
-  ChorusP: {fileID: 0}
+  applyViolentCameraShake: 0
+  shooter: {fileID: 0}
+  fireNuBullets: {fileID: 0}
+  fireNuBulletspattern2: {fileID: 0}
   Bluech: {fileID: 0}
   Greench: {fileID: 0}
   Purplech: {fileID: 0}
+  ChorusB: {fileID: 0}
+  ChorusG: {fileID: 0}
+  ChorusP: {fileID: 0}
+  DelayB: {fileID: 0}
+  DelayG: {fileID: 0}
+  DelayP: {fileID: 0}
+  ReverbB: {fileID: 0}
+  ReverbG: {fileID: 0}
+  ReverbP: {fileID: 0}
 --- !u!114 &1152737196363137087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,4 +276,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcf83d49ee6056a45a0b70b31a1525dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletFrequency: 0.2
+  bulletFrequency2: 0.36

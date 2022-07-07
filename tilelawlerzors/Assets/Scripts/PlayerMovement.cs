@@ -45,13 +45,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (value.isPressed)
         {
-            // do stuff
             myrigidbody.velocity += new Vector2(0f, jumpSpeed);
         }
     }
 
     void Run()
     {
+
         Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myrigidbody.velocity.y);
         myrigidbody.velocity = playerVelocity;
 
