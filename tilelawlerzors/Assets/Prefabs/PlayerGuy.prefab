@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2728299531039588533}
   - component: {fileID: 1682824894550885456}
   - component: {fileID: 4907520766739530762}
+  - component: {fileID: 3181509701171557045}
   m_Layer: 0
   m_Name: PlayerGuy
   m_TagString: Untagged
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -299622967
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 90646071, guid: 53f77f901a64c374c8fef757656eb75d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -188,3 +189,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c43e13918c19a4449fae2ca48b0861d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 10
+  jumpSpeed: 5
+  climbSpeed: 6
+--- !u!61 &3181509701171557045
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682824894230871958}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05589819, y: -0.4438962}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.38183308, y: 0.11220759}
+  m_EdgeRadius: 0
