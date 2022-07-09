@@ -56,6 +56,9 @@ TagManager:
   - name: Mushroom
     uniqueID: 1037040911
     locked: 0
+  - name: enemies
+    uniqueID: 1208060733
+    locked: 0
   - name: player
     uniqueID: 3995344329
     locked: 0
