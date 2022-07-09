@@ -1204,7 +1204,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -23721,7 +23721,7 @@ TilemapRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -31662,6 +31662,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4907520766739530762, guid: 250dc65b5bf7b444ba6bcdc6bd5bd964, type: 3}
       propertyPath: jumpSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907520766739530762, guid: 250dc65b5bf7b444ba6bcdc6bd5bd964, type: 3}
+      propertyPath: deathKick.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907520766739530762, guid: 250dc65b5bf7b444ba6bcdc6bd5bd964, type: 3}
+      propertyPath: deathKick.y
       value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
