@@ -16,7 +16,7 @@ TagManager:
   - mushroom
   - Enemies
   - Player
-  - 
+  - Hazard
   - 
   - 
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Mushroom
     uniqueID: 1037040911
+    locked: 0
+  - name: Hazards
+    uniqueID: 443946407
     locked: 0
   - name: enemies
     uniqueID: 1208060733
