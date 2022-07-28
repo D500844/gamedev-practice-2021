@@ -1335,6 +1335,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1580867731192554359, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: moveSpeed.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580867731192554359, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
       propertyPath: moveSpeed.y
       value: 0.1
       objectReference: {fileID: 0}
