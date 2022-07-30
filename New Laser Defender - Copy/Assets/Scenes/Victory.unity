@@ -1286,12 +1286,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4064002050833822264, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 515.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064002050833822264, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4064002050833822264, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064002050833822265, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
+      propertyPath: m_text
+      value: Next Level
       objectReference: {fileID: 0}
     - target: {fileID: 4064002050833822265, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_fontSize

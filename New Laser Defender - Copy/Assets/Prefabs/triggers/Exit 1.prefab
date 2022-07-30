@@ -146,4 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e499dd2c4430446aa147160efe36a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoadWait: 5
+  Finishing1: 1
+  Finishing2: 0
+  Finishing3: 0
+  Finishing4: 0
+  levelLoadWait: 10
