@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     [SerializeField] GameObject itemDropPrefab;
     [SerializeField] bool doubleItemDrop = false;
     [SerializeField] GameObject doubleItemDropPrefab;
-    [SerializeField] public int health = 50;
+    [SerializeField] public int health = 55;
     [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
     [SerializeField] ParticleSystem healEffect;
@@ -48,9 +48,9 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        if(isPlayer && health > 50)
+        if(isPlayer && health > 55)
         {
-            health = 50;
+            health = 55;
         }
     }
 

@@ -204,8 +204,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: 2.5, y: 0}
+  m_SizeDelta: {x: -5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &178992241
 GameObject:
@@ -2863,7 +2863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterDB: {fileID: 11400000, guid: 7d0b2a68e57b18d46898299ef55791c2, type: 2}
   artworkSprite: {fileID: 1124031041}
-  CarCar: {fileID: 21300000, guid: fc09188fb9d2fdc42a2bacca66d317c9, type: 3}
+  CarCar: {fileID: 21300000, guid: 46ba037673e6c6c4eb427ef63878a813, type: 3}
   Maya: {fileID: 21300000, guid: e8e50d475324e014096298c260e2f634, type: 3}
   VanHelsing: {fileID: 21300000, guid: 7291b67f3bedd2b43a16bf10cd3a4a4a, type: 3}
   Blue: {fileID: 1627668177}
@@ -5279,7 +5279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942657, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: shootingVolume
-      value: 0.143
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 5674762228041942659, guid: e6437a03327904646a0995d4bac52bf1, type: 3}
       propertyPath: Loop

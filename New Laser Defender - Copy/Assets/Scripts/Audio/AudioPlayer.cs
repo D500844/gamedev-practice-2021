@@ -44,7 +44,10 @@ public class AudioPlayer : MonoBehaviour
 
     public void PlayShootingClip()
     {
-        PlayClip(shootingClip, shootingVolume);
+        if (shootingClip != null)
+        {
+            PlayClip(shootingClip, shootingVolume);
+        }
     }
 
     public void PlayDamageClip()
