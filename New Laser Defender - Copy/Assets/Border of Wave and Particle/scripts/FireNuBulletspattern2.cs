@@ -13,14 +13,12 @@ public class FireNuBulletspattern2 : MonoBehaviour
     }
 
     public void SecondStart()
-    
     {
         InvokeRepeating("Fire", 0f, bulletFrequency2);
     }
 
     private void Fire()
     {
-
             float bulDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180f);
             float bulDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180f);
 
@@ -36,5 +34,4 @@ public class FireNuBulletspattern2 : MonoBehaviour
             angle += 10f;
 
     }
-
 }
