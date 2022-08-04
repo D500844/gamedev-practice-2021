@@ -1107,7 +1107,23 @@ PrefabInstance:
     - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: eca43587d6dc1374ea529477f3999db2, type: 3}
+      objectReference: {fileID: 21300000, guid: 02343505f309cce4e9235250a1f45dc1, type: 3}
+    - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_Color.a
+      value: 0.59607846
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4058038
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580867731192554356, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.22385189
+      objectReference: {fileID: 0}
     - target: {fileID: 1580867731192554359, guid: 8e7a2a9b69cd17e4f9d92637e3d0524e, type: 3}
       propertyPath: moveSpeed.y
       value: 0.1
@@ -1367,7 +1383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4064002051631594541, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel2
+      value: LoadLevel1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04fdbb84532401440a85fd8dc627325a, type: 3}
